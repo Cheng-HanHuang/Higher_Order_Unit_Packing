@@ -9,3 +9,7 @@ checkpoints/
 *.pth
 *.ckpt
 .DS_Store
+
+# Generated experiment outputs (new default location)
+artifacts/*
+!artifacts/.gitkeep
