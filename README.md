@@ -12,6 +12,17 @@ The code numerically evaluates whether projected gradient descent (PGD) on the r
 
 ---
 
+## Quick cleanup note (non-destructive)
+
+To keep the workspace tidier **without losing fallback paths**, this repo now also includes:
+
+- `scripts/` thin entry points (`run_experiment.py`, `run_sweep.py`, `run_stress_suite.py`, `summarize_results.py`),
+- `docs/repo_layout.md` and `docs/plan.md` for structure-first navigation,
+- `src/higher_order_unit_packing/` as a gradual refactor scaffold,
+- `artifacts/` as the preferred home for new generated outputs.
+
+All existing legacy scripts and historical result files remain in place intentionally.
+
 ## 1) Repository layout at a glance
 
 ### Core solver + experiment scripts
