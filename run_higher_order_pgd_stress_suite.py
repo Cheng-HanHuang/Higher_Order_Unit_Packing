@@ -20,26 +20,40 @@ class ProblemSpec:
     note: str
 
 
-def build_specs() -> list[ProblemSpec]:
+def build_specs(profile: str) -> list[ProblemSpec]:
     specs: list[ProblemSpec] = []
-    # Harder random-unit packing settings.
-    specs.extend([
-        ProblemSpec("RU1", "random_unit", {"n": 40, "m": 80, "row_min": 4, "row_max": 8, "capacity_mode": "mixed"}, "Medium-large mixed-capacity random unit packing."),
-        ProblemSpec("RU2", "random_unit", {"n": 60, "m": 120, "row_min": 5, "row_max": 10, "capacity_mode": "mixed"}, "Larger mixed-capacity random unit packing."),
-        ProblemSpec("RU3", "random_unit", {"n": 60, "m": 120, "row_min": 5, "row_max": 10, "capacity_mode": "set_packing"}, "Capacity-1 variant with larger rows."),
-        ProblemSpec("RU4", "random_unit", {"n": 80, "m": 160, "row_min": 5, "row_max": 10, "capacity_mode": "tight"}, "Tight-capacity regime at larger scale."),
-        ProblemSpec("RU5", "random_unit", {"n": 80, "m": 160, "row_min": 6, "row_max": 12, "capacity_mode": "half"}, "Half-capacity larger-row regime."),
-        ProblemSpec("RU6", "random_unit", {"n": 100, "m": 200, "row_min": 6, "row_max": 12, "capacity_mode": "mixed"}, "Largest random-unit stress setting in this suite."),
-    ])
-    # Harder k-set packing settings.
-    specs.extend([
-        ProblemSpec("KS1", "kset", {"n_sets": 60, "universe_size": 30, "k": 4, "density": 1.0}, "Denser 4-set packing baseline."),
-        ProblemSpec("KS2", "kset", {"n_sets": 100, "universe_size": 40, "k": 5, "density": 1.0}, "Dense 5-set packing at larger size."),
-        ProblemSpec("KS3", "kset", {"n_sets": 100, "universe_size": 40, "k": 5, "density": 0.7}, "Sparser 5-set packing at same size."),
-        ProblemSpec("KS4", "kset", {"n_sets": 120, "universe_size": 50, "k": 5, "density": 1.0}, "Larger dense 5-set packing."),
-        ProblemSpec("KS5", "kset", {"n_sets": 150, "universe_size": 60, "k": 6, "density": 0.7}, "Large sparse 6-set packing."),
-        ProblemSpec("KS6", "kset", {"n_sets": 180, "universe_size": 70, "k": 6, "density": 0.7}, "Largest k-set stress setting in this suite."),
-    ])
+    if profile == "standard":
+        specs.extend([
+            ProblemSpec("RU1", "random_unit", {"n": 40, "m": 80, "row_min": 4, "row_max": 8, "capacity_mode": "mixed"}, "Medium-large mixed-capacity random unit packing."),
+            ProblemSpec("RU2", "random_unit", {"n": 60, "m": 120, "row_min": 5, "row_max": 10, "capacity_mode": "mixed"}, "Larger mixed-capacity random unit packing."),
+            ProblemSpec("RU3", "random_unit", {"n": 60, "m": 120, "row_min": 5, "row_max": 10, "capacity_mode": "set_packing"}, "Capacity-1 variant with larger rows."),
+            ProblemSpec("RU4", "random_unit", {"n": 80, "m": 160, "row_min": 5, "row_max": 10, "capacity_mode": "tight"}, "Tight-capacity regime at larger scale."),
+            ProblemSpec("RU5", "random_unit", {"n": 80, "m": 160, "row_min": 6, "row_max": 12, "capacity_mode": "half"}, "Half-capacity larger-row regime."),
+            ProblemSpec("RU6", "random_unit", {"n": 100, "m": 200, "row_min": 6, "row_max": 12, "capacity_mode": "mixed"}, "Largest random-unit stress setting in the standard suite."),
+        ])
+        specs.extend([
+            ProblemSpec("KS1", "kset", {"n_sets": 60, "universe_size": 30, "k": 4, "density": 1.0}, "Denser 4-set packing baseline."),
+            ProblemSpec("KS2", "kset", {"n_sets": 100, "universe_size": 40, "k": 5, "density": 1.0}, "Dense 5-set packing at larger size."),
+            ProblemSpec("KS3", "kset", {"n_sets": 100, "universe_size": 40, "k": 5, "density": 0.7}, "Sparser 5-set packing at same size."),
+            ProblemSpec("KS4", "kset", {"n_sets": 120, "universe_size": 50, "k": 5, "density": 1.0}, "Larger dense 5-set packing."),
+            ProblemSpec("KS5", "kset", {"n_sets": 150, "universe_size": 60, "k": 6, "density": 0.7}, "Large sparse 6-set packing."),
+            ProblemSpec("KS6", "kset", {"n_sets": 180, "universe_size": 70, "k": 6, "density": 0.7}, "Largest k-set stress setting in the standard suite."),
+        ])
+    elif profile == "extreme":
+        specs.extend([
+            ProblemSpec("RU7", "random_unit", {"n": 120, "m": 260, "row_min": 7, "row_max": 14, "capacity_mode": "mixed"}, "Extreme mixed-capacity random unit packing."),
+            ProblemSpec("RU8", "random_unit", {"n": 140, "m": 300, "row_min": 8, "row_max": 16, "capacity_mode": "tight"}, "Extreme tight-capacity random unit packing."),
+            ProblemSpec("RU9", "random_unit", {"n": 140, "m": 300, "row_min": 8, "row_max": 16, "capacity_mode": "half"}, "Extreme half-capacity random unit packing."),
+            ProblemSpec("RU10", "random_unit", {"n": 160, "m": 360, "row_min": 8, "row_max": 18, "capacity_mode": "set_packing"}, "Extreme capacity-1 random unit packing."),
+        ])
+        specs.extend([
+            ProblemSpec("KS7", "kset", {"n_sets": 220, "universe_size": 80, "k": 6, "density": 0.7}, "Extreme sparse 6-set packing."),
+            ProblemSpec("KS8", "kset", {"n_sets": 260, "universe_size": 90, "k": 7, "density": 0.8}, "Extreme mixed-density 7-set packing."),
+            ProblemSpec("KS9", "kset", {"n_sets": 300, "universe_size": 100, "k": 7, "density": 1.0}, "Extreme dense 7-set packing."),
+            ProblemSpec("KS10", "kset", {"n_sets": 340, "universe_size": 120, "k": 8, "density": 0.8}, "Largest k-set stress setting in the extreme suite."),
+        ])
+    else:
+        raise ValueError(f"Unknown profile: {profile}")
     return specs
 
 
@@ -184,6 +198,7 @@ def write_md(rows: list[dict[str, Any]], path: Path, args: argparse.Namespace) -
     lines.append("# Higher-order PGD stress-suite report\n")
     lines.append("## Run configuration\n")
     lines.append(f"- Solver script: `{args.solver}`")
+    lines.append(f"- Stress profile: `{args.profile}`")
     lines.append(f"- Runs per problem: `{args.runs}`")
     lines.append(f"- Tuning runs per problem: `{args.tune_runs}`")
     lines.append(f"- PG tolerance: `{args.tol_pg}`")
@@ -251,6 +266,7 @@ def write_tex(rows: list[dict[str, Any]], path: Path, args: argparse.Namespace) 
     lines.append(r"\subsection*{Run configuration}")
     lines.append(r"\begin{itemize}")
     lines.append(rf"\item Solver script: \texttt{{{latex_escape(str(args.solver))}}}")
+    lines.append(rf"\item Stress profile: \texttt{{{latex_escape(args.profile)}}}")
     lines.append(rf"\item Runs per problem: {args.runs}")
     lines.append(rf"\item Tuning runs per problem: {args.tune_runs}")
     lines.append(rf"\item PG tolerance: {args.tol_pg}")
@@ -300,8 +316,9 @@ def write_tex(rows: list[dict[str, Any]], path: Path, args: argparse.Namespace) 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run a harder higher-order PGD stress suite and write report files.")
-    parser.add_argument("--solver", type=str, default="/mnt/data/higher_order_pgd_packing(1).py")
-    parser.add_argument("--outdir", type=str, default="/mnt/data/higher_order_pgd_stress_results")
+    parser.add_argument("--solver", type=str, default="higher_order_pgd_packing.py")
+    parser.add_argument("--outdir", type=str, default="higher_order_pgd_stress_results")
+    parser.add_argument("--profile", type=str, default="standard", choices=["standard", "extreme"])
     parser.add_argument("--runs", type=int, default=12)
     parser.add_argument("--tune-runs", type=int, default=4)
     parser.add_argument("--tol-pg", type=float, default=1e-7)
@@ -316,7 +333,7 @@ def main() -> None:
     result_dir = outdir / "json_results"
     result_dir.mkdir(parents=True, exist_ok=True)
 
-    specs = build_specs()
+    specs = build_specs(args.profile)
     rows: list[dict[str, Any]] = []
     seed = args.seed_base
     manifest = []
