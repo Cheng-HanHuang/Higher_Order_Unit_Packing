@@ -1,0 +1,1820 @@
+{
+  "instance_name": "random_unit_n60_m120_set_packing",
+  "n": 60,
+  "num_constraints": 120,
+  "gamma": 2.0777014152144697,
+  "max_w": 1.9777014152144698,
+  "eta0_tuned": 0.125,
+  "num_runs": 12,
+  "all_converged_to_stationary": true,
+  "all_binary": true,
+  "all_feasible": true,
+  "all_strict_local_min_certified": true,
+  "any_saddle_evidence": false,
+  "records": [
+    {
+      "run_id": 0,
+      "seed": 2005,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10909295082092285,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 1,
+      "seed": 2006,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10938286781311035,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 2,
+      "seed": 2007,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10927438735961914,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 3,
+      "seed": 2008,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10923409461975098,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 4,
+      "seed": 2009,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10906839370727539,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 5,
+      "seed": 2010,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10933256149291992,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 6,
+      "seed": 2011,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10944461822509766,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 7,
+      "seed": 2012,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10913634300231934,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 8,
+      "seed": 2013,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10884594917297363,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 9,
+      "seed": 2014,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10906434059143066,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 10,
+      "seed": 2015,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.1088719367980957,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 11,
+      "seed": 2016,
+      "eta0_tuned": 0.125,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 25,
+      "runtime_sec": 0.10908269882202148,
+      "final_value": -4.509186137578682,
+      "pg_norm": 0.0,
+      "grad_norm": 68.82671602847702,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    }
+  ],
+  "metadata": {
+    "generator": "random_unit_packing",
+    "row_size_range": [
+      5,
+      10
+    ],
+    "capacity_mode": "set_packing"
+  },
+  "problem_instance": {
+    "name": "random_unit_n60_m120_set_packing",
+    "n": 60,
+    "weights": [
+      0.5169148689633525,
+      1.1767796611608619,
+      1.2163041982752654,
+      1.2192682344566703,
+      1.3664153235242715,
+      1.9322368987178706,
+      0.8486495712334693,
+      1.1321048925291306,
+      1.3195318171953323,
+      1.1208189502931796,
+      1.356200058046192,
+      0.9859450273210861,
+      0.9174603209611194,
+      0.6857880862735884,
+      0.6372854928183909,
+      0.6658014242621596,
+      1.3031253754307879,
+      0.648477627173762,
+      0.9726339126313057,
+      1.66328389332605,
+      0.7878814962590225,
+      1.3976495855090323,
+      1.9032440553045884,
+      0.8079845640965377,
+      1.681743276354892,
+      1.2671241192554794,
+      0.5351177139367365,
+      1.9162466939002818,
+      0.8600055251708189,
+      1.4304979912886786,
+      1.5650749922517946,
+      1.2496682828408017,
+      1.0238635863026364,
+      1.289370015637108,
+      0.9135042298939628,
+      1.0739319110161163,
+      0.6008097763171278,
+      1.3131769600912,
+      0.5216637573323253,
+      1.2415592381961735,
+      1.7550254046159657,
+      0.7521231925283729,
+      1.9444618165046388,
+      1.8371424476067353,
+      1.2401919562203023,
+      1.8385151102293857,
+      0.9385947982963034,
+      0.9001228290281298,
+      1.3925318640774857,
+      1.1314991804107168,
+      1.2184467075701069,
+      0.8175042683670601,
+      0.5211250202906781,
+      1.3975613351376817,
+      0.8868351705993007,
+      0.8745622952417434,
+      1.9777014152144698,
+      1.3573237964902116,
+      0.7176248109670698,
+      0.8431696813083098
+    ],
+    "constraints": [
+      {
+        "indices": [
+          27,
+          30,
+          31,
+          39,
+          47,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          12,
+          15,
+          28,
+          39
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          13,
+          26,
+          34,
+          37,
+          39
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          10,
+          23,
+          41,
+          47,
+          54,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          18,
+          22,
+          33,
+          37,
+          40,
+          41,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          6,
+          9,
+          35,
+          48,
+          57,
+          58,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          9,
+          12,
+          16,
+          23,
+          35,
+          44,
+          52,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          13,
+          22,
+          42,
+          46,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          36,
+          37,
+          38,
+          55,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          37,
+          43,
+          48,
+          52
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          14,
+          18,
+          21,
+          26,
+          27,
+          35
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          7,
+          13,
+          21,
+          22,
+          37,
+          49,
+          54,
+          55
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          24,
+          32,
+          36,
+          48
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          7,
+          17,
+          23,
+          34,
+          40,
+          44,
+          52,
+          55,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          5,
+          20,
+          44,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          20,
+          29,
+          40,
+          42,
+          44,
+          46,
+          48,
+          51,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          5,
+          6,
+          12,
+          32,
+          39
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          4,
+          34,
+          47,
+          56,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          16,
+          23,
+          37,
+          45,
+          46,
+          55
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          10,
+          22,
+          31,
+          34,
+          43,
+          45,
+          52,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          18,
+          34,
+          42,
+          48,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          16,
+          24,
+          52,
+          54,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          5,
+          10,
+          24,
+          25,
+          27,
+          34,
+          37,
+          44,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          5,
+          7,
+          9,
+          17,
+          18,
+          19,
+          25,
+          34,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          17,
+          19,
+          23,
+          24,
+          33
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          12,
+          26,
+          27,
+          36,
+          37,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          16,
+          26,
+          40,
+          45,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          22,
+          27,
+          40,
+          43,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          9,
+          11,
+          12,
+          29,
+          35,
+          47
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          5,
+          12,
+          25,
+          39,
+          45,
+          46,
+          47,
+          54
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          18,
+          19,
+          20,
+          29,
+          33,
+          43
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          9,
+          11,
+          29,
+          33,
+          34,
+          39,
+          48,
+          52,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          13,
+          24,
+          37,
+          39,
+          40,
+          42,
+          48,
+          52,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          25,
+          33,
+          37,
+          38,
+          40,
+          51,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          9,
+          20,
+          26,
+          33,
+          43,
+          45,
+          48,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          12,
+          18,
+          19,
+          21,
+          26,
+          29,
+          30,
+          47
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          3,
+          7,
+          19,
+          30,
+          31,
+          32,
+          39,
+          41,
+          52
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          15,
+          25,
+          27,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          14,
+          16,
+          24,
+          29,
+          37,
+          38,
+          45,
+          48,
+          50
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          8,
+          23,
+          24,
+          30,
+          41,
+          50,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          9,
+          18,
+          20,
+          24,
+          29,
+          39,
+          45
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          6,
+          14,
+          31,
+          35,
+          47
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          26,
+          33,
+          34,
+          49
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          5,
+          6,
+          21,
+          24,
+          27,
+          35,
+          45,
+          49,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          16,
+          22,
+          44,
+          46,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          9,
+          16,
+          36,
+          40,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          18,
+          20,
+          26,
+          36,
+          37
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          16,
+          21,
+          28,
+          45,
+          46,
+          52,
+          55
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          4,
+          6,
+          20,
+          22,
+          30,
+          36,
+          45
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          7,
+          10,
+          11,
+          14,
+          17,
+          32,
+          49,
+          51,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          9,
+          12,
+          14,
+          15,
+          35,
+          39,
+          53,
+          55
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          12,
+          37,
+          39,
+          43,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          10,
+          17,
+          24,
+          29,
+          38,
+          40,
+          55,
+          56,
+          57,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          11,
+          13,
+          15,
+          31,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          7,
+          17,
+          41,
+          47
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          15,
+          17,
+          35,
+          39,
+          43,
+          47,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          23,
+          27,
+          28,
+          33,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          16,
+          28,
+          36,
+          41,
+          47,
+          48
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          9,
+          14,
+          20,
+          25,
+          27,
+          28,
+          38,
+          44,
+          47,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          3,
+          4,
+          5,
+          22,
+          40,
+          44,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          28,
+          30,
+          47,
+          50,
+          52
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          10,
+          13,
+          15,
+          21,
+          23,
+          32,
+          52,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          6,
+          11,
+          16,
+          25,
+          28,
+          37,
+          43,
+          45
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          8,
+          23,
+          25,
+          31,
+          32,
+          36,
+          40,
+          42,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          4,
+          7,
+          13,
+          22,
+          32,
+          36,
+          39,
+          40,
+          52
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          3,
+          10,
+          12,
+          20,
+          28,
+          37,
+          42,
+          49,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          17,
+          26,
+          53,
+          55,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          9,
+          14,
+          16,
+          35,
+          39,
+          40,
+          44,
+          48,
+          51,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          6,
+          13,
+          23,
+          38,
+          40,
+          44
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          10,
+          24,
+          29,
+          31,
+          36,
+          50,
+          51,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          7,
+          33,
+          47,
+          54,
+          56,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          22,
+          25,
+          29,
+          31,
+          36
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          7,
+          8,
+          29,
+          32,
+          37,
+          55,
+          56,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          5,
+          14,
+          16,
+          26,
+          36,
+          43
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          2,
+          10,
+          14,
+          43,
+          49
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          13,
+          21,
+          23,
+          38,
+          39,
+          55
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          10,
+          11,
+          13,
+          23,
+          29,
+          40,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          12,
+          29,
+          45,
+          47,
+          49,
+          50,
+          52
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          5,
+          16,
+          25,
+          30,
+          40,
+          54
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          6,
+          11,
+          18,
+          25,
+          44,
+          47,
+          52
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          16,
+          18,
+          20,
+          24,
+          31,
+          52
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          13,
+          25,
+          32,
+          40,
+          48,
+          50,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          7,
+          17,
+          20,
+          23,
+          24,
+          32,
+          46,
+          47,
+          53,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          2,
+          16,
+          18,
+          31,
+          48,
+          52,
+          58,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          12,
+          17,
+          18,
+          23,
+          25,
+          31,
+          38,
+          52,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          9,
+          14,
+          21,
+          31,
+          45
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          4,
+          7,
+          17,
+          18,
+          21,
+          22,
+          46,
+          54
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          8,
+          10,
+          26,
+          42,
+          50,
+          53
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          6,
+          16,
+          21,
+          27,
+          34,
+          35,
+          45,
+          50,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          8,
+          14,
+          34,
+          43,
+          49
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          6,
+          9,
+          13,
+          14,
+          24,
+          34,
+          35,
+          36,
+          41
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          2,
+          8,
+          13,
+          30,
+          40
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          11,
+          18,
+          34,
+          48,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          7,
+          15,
+          21,
+          25,
+          35,
+          39,
+          42,
+          52,
+          54
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          4,
+          6,
+          9,
+          11,
+          18,
+          19,
+          40,
+          43,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          14,
+          20,
+          23,
+          27,
+          31,
+          37,
+          43,
+          53,
+          55
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          7,
+          10,
+          15,
+          23,
+          29,
+          35,
+          38,
+          43,
+          55
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          15,
+          22,
+          26,
+          32,
+          33,
+          34,
+          39,
+          47,
+          49
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          13,
+          25,
+          27,
+          46,
+          50
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          10,
+          16,
+          17,
+          19,
+          25,
+          50,
+          54,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          13,
+          28,
+          34,
+          55,
+          56
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          15,
+          24,
+          37,
+          44,
+          46,
+          47
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          9,
+          25,
+          36,
+          39,
+          40,
+          42,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          5,
+          22,
+          29,
+          37,
+          40,
+          46
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          4,
+          6,
+          23,
+          26,
+          44,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          24,
+          42,
+          45,
+          51,
+          54,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          9,
+          14,
+          16,
+          20,
+          33,
+          43,
+          44,
+          46,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          3,
+          4,
+          20,
+          28,
+          32,
+          36,
+          37,
+          45,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          3,
+          6,
+          14,
+          21,
+          30,
+          41,
+          47,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          16,
+          25,
+          34,
+          36,
+          41,
+          49,
+          54,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          6,
+          17,
+          24,
+          26,
+          46,
+          49,
+          50,
+          51
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          1,
+          6,
+          8,
+          14,
+          38,
+          42,
+          45,
+          48
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          0,
+          26,
+          32,
+          35,
+          42,
+          56,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          19,
+          33,
+          40,
+          41,
+          42
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          7,
+          14,
+          18,
+          19,
+          21,
+          23,
+          29,
+          52,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          7,
+          9,
+          10,
+          28,
+          33,
+          34,
+          50,
+          58
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          7,
+          10,
+          18,
+          37,
+          52,
+          59
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          9,
+          38,
+          51,
+          52,
+          54,
+          57
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          3,
+          6,
+          12,
+          13,
+          14,
+          23,
+          35,
+          49,
+          54
+        ],
+        "capacity": 1
+      },
+      {
+        "indices": [
+          2,
+          3,
+          11,
+          24,
+          28,
+          35,
+          38,
+          40,
+          52,
+          57
+        ],
+        "capacity": 1
+      }
+    ],
+    "metadata": {
+      "generator": "random_unit_packing",
+      "row_size_range": [
+        5,
+        10
+      ],
+      "capacity_mode": "set_packing"
+    }
+  }
+}

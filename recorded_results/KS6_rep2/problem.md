@@ -1,0 +1,282 @@
+# Original problem: kset_u70_n180_k6
+
+This file records the exact original binary packing problem used for the matching run result.
+
+## Optimization model
+
+\[
+\max_{x\in\{0,1\}^n}\ \sum_{i=1}^n w_i x_i
+\qquad\text{s.t.}\qquad
+\sum_{i\in S_k} x_i \le B_k,\quad k=1,\dots,m.
+\]
+
+- Number of variables: `180`
+- Number of constraints: `70`
+- Matching run-result file: `result.json`
+
+## Metadata
+
+- `generator`: `random_k_set_packing`
+- `universe_size`: `70`
+- `k`: `6`
+- `density`: `0.7`
+
+## Weights
+
+w_1=0.98634129, w_2=1.7126899, w_3=1.1465097, w_4=1.2159054, w_5=1.0935244, w_6=1.4126052, w_7=1.5921633, w_8=1.4870925, w_9=1.0617423, w_10=1.2122117, w_11=0.98186069, w_12=0.86476078, w_13=0.92964196, w_14=1.6914604, w_15=1.7278416, w_16=1.7428954, w_17=0.73318117, w_18=1.4214801, w_19=0.67142893, w_20=0.61804902, w_21=1.0284866, w_22=1.5663972, w_23=0.82878114, w_24=0.75979931, w_25=1.763063, w_26=1.106146, w_27=1.7936941, w_28=1.2371512, w_29=1.9929711, w_30=1.7741995, w_31=1.2416059, w_32=1.9507915, w_33=1.3255425, w_34=1.6940283, w_35=1.1875307, w_36=1.9196937, w_37=1.7422219, w_38=0.50794281, w_39=1.0964393, w_40=1.225015, w_41=1.4327286, w_42=1.3808731, w_43=0.90385323, w_44=0.79265774, w_45=1.7317127, w_46=1.9159515, w_47=1.9112031, w_48=1.218931, w_49=1.1392986, w_50=0.85948022, w_51=1.7579865, w_52=1.5638252, w_53=1.4047378, w_54=1.578546, w_55=0.83813726, w_56=0.7773876, w_57=1.3843621, w_58=1.342881, w_59=1.5834876, w_60=0.51707688, w_61=1.2896996, w_62=1.086136, w_63=1.8985881, w_64=1.3227468, w_65=1.6738898, w_66=0.69277245, w_67=1.5482962, w_68=1.5598738, w_69=1.4547628, w_70=0.71505344, w_71=0.62202456, w_72=1.7884181, w_73=0.92240655, w_74=1.4654705, w_75=1.9714519, w_76=1.1502277, w_77=0.52609612, w_78=1.3603302, w_79=0.67779068, w_80=1.4763302, w_81=0.70830465, w_82=1.2280349, w_83=1.4386088, w_84=1.250678, w_85=0.94635463, w_86=1.012845, w_87=1.7092949, w_88=1.3490032, w_89=0.83702347, w_90=0.90541549, w_91=0.68059821, w_92=0.81277632, w_93=0.92593985, w_94=0.52943648, w_95=1.6516504, w_96=1.2923183, w_97=1.1431318, w_98=1.3960462, w_99=1.7319568, w_100=0.64924279, w_101=0.59650129, w_102=1.0544544, w_103=1.3701639, w_104=0.6871419, w_105=1.6217811, w_106=1.1700589, w_107=1.9535623, w_108=1.4794545, w_109=0.658771, w_110=1.5508992, w_111=1.285682, w_112=0.95213187, w_113=1.6338061, w_114=1.8535571, w_115=1.373343, w_116=1.1260965, w_117=1.4912106, w_118=1.3229872, w_119=1.9049167, w_120=1.1040497, w_121=1.9147749, w_122=1.6446937, w_123=1.2998619, w_124=1.1457459, w_125=1.866765, w_126=0.79002093, w_127=1.7570677, w_128=1.9920265, w_129=1.5838093, w_130=0.97578645, w_131=1.1456744, w_132=1.0593854, w_133=1.5995199, w_134=1.8572114, w_135=1.240813, w_136=1.5177366, w_137=1.6541794, w_138=1.7680129, w_139=1.4794863, w_140=1.3365049, w_141=1.7821108, w_142=0.57794224, w_143=0.93618955, w_144=0.91508421, w_145=1.2013157, w_146=1.1754809, w_147=1.8349357, w_148=1.4830375, w_149=1.1545098, w_150=1.2495397, w_151=1.9111711, w_152=0.55624929, w_153=0.77932213, w_154=0.56089337, w_155=1.4786233, w_156=1.906867, w_157=1.1976475, w_158=0.60255097, w_159=1.4445798, w_160=1.1573126, w_161=1.1919074, w_162=1.1690462, w_163=0.77753452, w_164=0.79538178, w_165=0.77600082, w_166=1.308518, w_167=1.1001388, w_168=1.1475437, w_169=0.93966011, w_170=1.7746424, w_171=1.0013667, w_172=1.2345267, w_173=1.6597451, w_174=1.0138708, w_175=1.4336426, w_176=0.93054555, w_177=1.5142576, w_178=1.587119, w_179=0.59693212, w_180=1.2488765
+
+## Candidate sets (variables)
+
+- Variable `x_1` corresponds to set `A_1 = {9, 16, 29, 36, 40, 62}`
+- Variable `x_2` corresponds to set `A_2 = {1, 11, 40, 52, 56, 58}`
+- Variable `x_3` corresponds to set `A_3 = {14, 15, 26, 30, 58, 60}`
+- Variable `x_4` corresponds to set `A_4 = {8, 16, 18, 19, 55, 62}`
+- Variable `x_5` corresponds to set `A_5 = {11, 16, 27, 30, 59, 64}`
+- Variable `x_6` corresponds to set `A_6 = {23, 31, 37, 47, 59, 68}`
+- Variable `x_7` corresponds to set `A_7 = {1, 6, 34, 36, 37, 49}`
+- Variable `x_8` corresponds to set `A_8 = {2, 21, 27, 30, 32, 37}`
+- Variable `x_9` corresponds to set `A_9 = {7, 15, 23, 37, 46, 64}`
+- Variable `x_10` corresponds to set `A_10 = {8, 12, 15, 31, 62, 63}`
+- Variable `x_11` corresponds to set `A_11 = {10, 22, 26, 45, 46, 70}`
+- Variable `x_12` corresponds to set `A_12 = {26, 40, 41, 46, 47, 67}`
+- Variable `x_13` corresponds to set `A_13 = {6, 36, 48, 56, 60, 70}`
+- Variable `x_14` corresponds to set `A_14 = {9, 30, 32, 37, 55, 60}`
+- Variable `x_15` corresponds to set `A_15 = {24, 28, 35, 62, 64, 65}`
+- Variable `x_16` corresponds to set `A_16 = {7, 27, 42, 48, 62, 64}`
+- Variable `x_17` corresponds to set `A_17 = {1, 22, 32, 51, 52, 65}`
+- Variable `x_18` corresponds to set `A_18 = {14, 24, 34, 35, 46, 55}`
+- Variable `x_19` corresponds to set `A_19 = {11, 16, 27, 51, 56, 67}`
+- Variable `x_20` corresponds to set `A_20 = {8, 12, 20, 40, 43, 47}`
+- Variable `x_21` corresponds to set `A_21 = {14, 15, 28, 31, 60, 64}`
+- Variable `x_22` corresponds to set `A_22 = {5, 10, 15, 37, 44, 64}`
+- Variable `x_23` corresponds to set `A_23 = {17, 27, 46, 50, 67, 69}`
+- Variable `x_24` corresponds to set `A_24 = {7, 11, 13, 30, 56, 60}`
+- Variable `x_25` corresponds to set `A_25 = {12, 46, 47, 50, 55, 58}`
+- Variable `x_26` corresponds to set `A_26 = {33, 39, 44, 45, 47, 54}`
+- Variable `x_27` corresponds to set `A_27 = {2, 12, 20, 26, 28, 39}`
+- Variable `x_28` corresponds to set `A_28 = {2, 4, 32, 35, 41, 51}`
+- Variable `x_29` corresponds to set `A_29 = {16, 27, 28, 42, 47, 55}`
+- Variable `x_30` corresponds to set `A_30 = {22, 28, 32, 33, 34, 70}`
+- Variable `x_31` corresponds to set `A_31 = {15, 23, 28, 36, 47, 59}`
+- Variable `x_32` corresponds to set `A_32 = {11, 28, 34, 39, 63, 70}`
+- Variable `x_33` corresponds to set `A_33 = {25, 35, 39, 47, 48, 49}`
+- Variable `x_34` corresponds to set `A_34 = {6, 36, 38, 59, 69, 70}`
+- Variable `x_35` corresponds to set `A_35 = {14, 49, 55, 60, 65, 70}`
+- Variable `x_36` corresponds to set `A_36 = {11, 20, 23, 29, 48, 61}`
+- Variable `x_37` corresponds to set `A_37 = {6, 13, 32, 35, 41, 56}`
+- Variable `x_38` corresponds to set `A_38 = {9, 13, 24, 50, 53, 57}`
+- Variable `x_39` corresponds to set `A_39 = {19, 30, 42, 46, 47, 50}`
+- Variable `x_40` corresponds to set `A_40 = {8, 11, 18, 32, 46, 47}`
+- Variable `x_41` corresponds to set `A_41 = {2, 5, 12, 23, 29, 63}`
+- Variable `x_42` corresponds to set `A_42 = {4, 23, 25, 40, 45, 63}`
+- Variable `x_43` corresponds to set `A_43 = {16, 40, 50, 51, 56, 57}`
+- Variable `x_44` corresponds to set `A_44 = {3, 17, 26, 37, 44, 53}`
+- Variable `x_45` corresponds to set `A_45 = {7, 8, 10, 29, 44, 50}`
+- Variable `x_46` corresponds to set `A_46 = {22, 24, 25, 30, 43, 61}`
+- Variable `x_47` corresponds to set `A_47 = {2, 9, 29, 37, 44, 69}`
+- Variable `x_48` corresponds to set `A_48 = {12, 34, 43, 44, 59, 64}`
+- Variable `x_49` corresponds to set `A_49 = {1, 2, 8, 29, 37, 64}`
+- Variable `x_50` corresponds to set `A_50 = {8, 12, 16, 22, 24, 57}`
+- Variable `x_51` corresponds to set `A_51 = {25, 47, 49, 52, 60, 64}`
+- Variable `x_52` corresponds to set `A_52 = {17, 33, 43, 48, 54, 58}`
+- Variable `x_53` corresponds to set `A_53 = {5, 6, 7, 31, 49, 54}`
+- Variable `x_54` corresponds to set `A_54 = {4, 10, 55, 56, 61, 65}`
+- Variable `x_55` corresponds to set `A_55 = {4, 16, 18, 25, 59, 61}`
+- Variable `x_56` corresponds to set `A_56 = {16, 23, 49, 54, 56, 61}`
+- Variable `x_57` corresponds to set `A_57 = {19, 23, 45, 51, 66, 70}`
+- Variable `x_58` corresponds to set `A_58 = {14, 22, 35, 51, 59, 68}`
+- Variable `x_59` corresponds to set `A_59 = {3, 20, 22, 28, 44, 64}`
+- Variable `x_60` corresponds to set `A_60 = {6, 23, 32, 52, 65, 69}`
+- Variable `x_61` corresponds to set `A_61 = {2, 4, 11, 33, 48, 65}`
+- Variable `x_62` corresponds to set `A_62 = {2, 3, 22, 26, 27, 70}`
+- Variable `x_63` corresponds to set `A_63 = {3, 8, 10, 62, 67, 70}`
+- Variable `x_64` corresponds to set `A_64 = {6, 33, 47, 54, 64, 69}`
+- Variable `x_65` corresponds to set `A_65 = {12, 16, 18, 25, 37, 70}`
+- Variable `x_66` corresponds to set `A_66 = {1, 44, 56, 57, 58, 69}`
+- Variable `x_67` corresponds to set `A_67 = {4, 6, 21, 23, 25, 35}`
+- Variable `x_68` corresponds to set `A_68 = {4, 26, 27, 48, 65, 66}`
+- Variable `x_69` corresponds to set `A_69 = {13, 22, 31, 37, 53, 65}`
+- Variable `x_70` corresponds to set `A_70 = {13, 35, 36, 53, 68, 69}`
+- Variable `x_71` corresponds to set `A_71 = {2, 13, 30, 53, 59, 69}`
+- Variable `x_72` corresponds to set `A_72 = {8, 10, 31, 37, 60, 65}`
+- Variable `x_73` corresponds to set `A_73 = {2, 6, 40, 57, 59, 68}`
+- Variable `x_74` corresponds to set `A_74 = {19, 40, 46, 54, 60, 68}`
+- Variable `x_75` corresponds to set `A_75 = {3, 38, 41, 47, 49, 65}`
+- Variable `x_76` corresponds to set `A_76 = {8, 18, 39, 42, 47, 60}`
+- Variable `x_77` corresponds to set `A_77 = {1, 6, 17, 56, 59, 66}`
+- Variable `x_78` corresponds to set `A_78 = {11, 17, 39, 53, 54, 63}`
+- Variable `x_79` corresponds to set `A_79 = {4, 6, 41, 50, 65, 69}`
+- Variable `x_80` corresponds to set `A_80 = {7, 17, 38, 47, 48, 59}`
+- Variable `x_81` corresponds to set `A_81 = {10, 18, 22, 53, 64, 69}`
+- Variable `x_82` corresponds to set `A_82 = {5, 16, 42, 49, 59, 61}`
+- Variable `x_83` corresponds to set `A_83 = {29, 36, 42, 43, 54, 57}`
+- Variable `x_84` corresponds to set `A_84 = {20, 24, 26, 27, 28, 53}`
+- Variable `x_85` corresponds to set `A_85 = {15, 35, 47, 57, 58, 69}`
+- Variable `x_86` corresponds to set `A_86 = {4, 17, 26, 35, 51, 67}`
+- Variable `x_87` corresponds to set `A_87 = {2, 12, 21, 51, 58, 70}`
+- Variable `x_88` corresponds to set `A_88 = {19, 22, 36, 48, 52, 56}`
+- Variable `x_89` corresponds to set `A_89 = {1, 7, 28, 29, 40, 59}`
+- Variable `x_90` corresponds to set `A_90 = {13, 15, 20, 29, 51, 67}`
+- Variable `x_91` corresponds to set `A_91 = {5, 22, 28, 29, 49, 54}`
+- Variable `x_92` corresponds to set `A_92 = {30, 31, 38, 46, 57, 69}`
+- Variable `x_93` corresponds to set `A_93 = {6, 18, 29, 32, 40, 46}`
+- Variable `x_94` corresponds to set `A_94 = {22, 33, 39, 43, 53, 56}`
+- Variable `x_95` corresponds to set `A_95 = {22, 24, 28, 47, 63, 65}`
+- Variable `x_96` corresponds to set `A_96 = {1, 13, 29, 32, 43, 52}`
+- Variable `x_97` corresponds to set `A_97 = {17, 23, 37, 42, 54, 61}`
+- Variable `x_98` corresponds to set `A_98 = {1, 5, 26, 32, 53, 56}`
+- Variable `x_99` corresponds to set `A_99 = {3, 14, 16, 44, 49, 64}`
+- Variable `x_100` corresponds to set `A_100 = {1, 19, 38, 39, 44, 58}`
+- Variable `x_101` corresponds to set `A_101 = {22, 39, 40, 44, 48, 59}`
+- Variable `x_102` corresponds to set `A_102 = {8, 11, 46, 49, 50, 53}`
+- Variable `x_103` corresponds to set `A_103 = {25, 26, 38, 40, 62, 70}`
+- Variable `x_104` corresponds to set `A_104 = {3, 10, 12, 31, 42, 55}`
+- Variable `x_105` corresponds to set `A_105 = {4, 11, 23, 25, 33, 45}`
+- Variable `x_106` corresponds to set `A_106 = {15, 21, 23, 51, 53, 54}`
+- Variable `x_107` corresponds to set `A_107 = {9, 18, 25, 27, 36, 57}`
+- Variable `x_108` corresponds to set `A_108 = {5, 13, 50, 58, 62, 69}`
+- Variable `x_109` corresponds to set `A_109 = {33, 50, 52, 57, 58, 66}`
+- Variable `x_110` corresponds to set `A_110 = {7, 21, 23, 40, 47, 60}`
+- Variable `x_111` corresponds to set `A_111 = {5, 8, 24, 32, 52, 70}`
+- Variable `x_112` corresponds to set `A_112 = {31, 33, 43, 50, 56, 60}`
+- Variable `x_113` corresponds to set `A_113 = {6, 10, 11, 12, 40, 55}`
+- Variable `x_114` corresponds to set `A_114 = {10, 37, 41, 43, 64, 68}`
+- Variable `x_115` corresponds to set `A_115 = {19, 21, 34, 36, 52, 60}`
+- Variable `x_116` corresponds to set `A_116 = {15, 20, 27, 43, 50, 64}`
+- Variable `x_117` corresponds to set `A_117 = {10, 25, 37, 53, 57, 63}`
+- Variable `x_118` corresponds to set `A_118 = {13, 24, 38, 55, 63, 69}`
+- Variable `x_119` corresponds to set `A_119 = {17, 19, 37, 38, 52, 67}`
+- Variable `x_120` corresponds to set `A_120 = {17, 23, 30, 36, 41, 64}`
+- Variable `x_121` corresponds to set `A_121 = {5, 9, 37, 42, 59, 63}`
+- Variable `x_122` corresponds to set `A_122 = {10, 15, 25, 33, 48, 49}`
+- Variable `x_123` corresponds to set `A_123 = {3, 4, 11, 21, 46, 65}`
+- Variable `x_124` corresponds to set `A_124 = {5, 15, 31, 36, 39, 70}`
+- Variable `x_125` corresponds to set `A_125 = {6, 26, 34, 36, 38, 50}`
+- Variable `x_126` corresponds to set `A_126 = {12, 44, 51, 52, 64, 66}`
+- Variable `x_127` corresponds to set `A_127 = {8, 10, 25, 32, 40, 41}`
+- Variable `x_128` corresponds to set `A_128 = {7, 10, 51, 56, 67, 70}`
+- Variable `x_129` corresponds to set `A_129 = {18, 22, 27, 47, 58, 61}`
+- Variable `x_130` corresponds to set `A_130 = {16, 44, 49, 67, 68, 70}`
+- Variable `x_131` corresponds to set `A_131 = {10, 24, 25, 27, 32, 39}`
+- Variable `x_132` corresponds to set `A_132 = {14, 19, 39, 43, 54, 67}`
+- Variable `x_133` corresponds to set `A_133 = {5, 27, 31, 49, 61, 69}`
+- Variable `x_134` corresponds to set `A_134 = {11, 12, 22, 23, 47, 70}`
+- Variable `x_135` corresponds to set `A_135 = {1, 5, 13, 33, 40, 64}`
+- Variable `x_136` corresponds to set `A_136 = {15, 25, 32, 38, 63, 65}`
+- Variable `x_137` corresponds to set `A_137 = {3, 7, 19, 21, 65, 68}`
+- Variable `x_138` corresponds to set `A_138 = {19, 42, 57, 59, 69, 70}`
+- Variable `x_139` corresponds to set `A_139 = {4, 26, 29, 31, 42, 66}`
+- Variable `x_140` corresponds to set `A_140 = {13, 21, 35, 43, 52, 70}`
+- Variable `x_141` corresponds to set `A_141 = {3, 19, 26, 27, 54, 66}`
+- Variable `x_142` corresponds to set `A_142 = {2, 5, 25, 31, 61, 70}`
+- Variable `x_143` corresponds to set `A_143 = {18, 19, 33, 39, 41, 69}`
+- Variable `x_144` corresponds to set `A_144 = {6, 42, 51, 56, 59, 66}`
+- Variable `x_145` corresponds to set `A_145 = {18, 33, 38, 52, 65, 70}`
+- Variable `x_146` corresponds to set `A_146 = {8, 21, 32, 41, 59, 62}`
+- Variable `x_147` corresponds to set `A_147 = {11, 12, 24, 26, 48, 55}`
+- Variable `x_148` corresponds to set `A_148 = {10, 20, 23, 29, 35, 65}`
+- Variable `x_149` corresponds to set `A_149 = {15, 20, 41, 55, 69, 70}`
+- Variable `x_150` corresponds to set `A_150 = {14, 33, 35, 51, 66, 68}`
+- Variable `x_151` corresponds to set `A_151 = {16, 22, 30, 33, 67, 68}`
+- Variable `x_152` corresponds to set `A_152 = {3, 8, 22, 34, 45, 47}`
+- Variable `x_153` corresponds to set `A_153 = {16, 24, 42, 47, 60, 68}`
+- Variable `x_154` corresponds to set `A_154 = {2, 7, 24, 37, 58, 65}`
+- Variable `x_155` corresponds to set `A_155 = {29, 35, 38, 49, 61, 67}`
+- Variable `x_156` corresponds to set `A_156 = {7, 9, 19, 29, 31, 51}`
+- Variable `x_157` corresponds to set `A_157 = {6, 8, 33, 40, 45, 62}`
+- Variable `x_158` corresponds to set `A_158 = {20, 30, 36, 43, 57, 61}`
+- Variable `x_159` corresponds to set `A_159 = {6, 23, 28, 47, 60, 61}`
+- Variable `x_160` corresponds to set `A_160 = {6, 8, 15, 22, 32, 43}`
+- Variable `x_161` corresponds to set `A_161 = {4, 9, 21, 26, 37, 64}`
+- Variable `x_162` corresponds to set `A_162 = {13, 15, 21, 22, 50, 59}`
+- Variable `x_163` corresponds to set `A_163 = {2, 4, 14, 25, 36, 49}`
+- Variable `x_164` corresponds to set `A_164 = {7, 30, 36, 40, 50, 58}`
+- Variable `x_165` corresponds to set `A_165 = {2, 4, 5, 23, 42, 45}`
+- Variable `x_166` corresponds to set `A_166 = {2, 9, 15, 18, 30, 70}`
+- Variable `x_167` corresponds to set `A_167 = {1, 8, 19, 25, 33, 65}`
+- Variable `x_168` corresponds to set `A_168 = {11, 25, 33, 35, 57, 67}`
+- Variable `x_169` corresponds to set `A_169 = {4, 17, 18, 51, 52, 70}`
+- Variable `x_170` corresponds to set `A_170 = {3, 36, 41, 56, 57, 68}`
+- Variable `x_171` corresponds to set `A_171 = {3, 7, 36, 43, 45, 58}`
+- Variable `x_172` corresponds to set `A_172 = {6, 17, 23, 28, 42, 45}`
+- Variable `x_173` corresponds to set `A_173 = {8, 33, 42, 49, 58, 65}`
+- Variable `x_174` corresponds to set `A_174 = {5, 12, 15, 31, 46, 65}`
+- Variable `x_175` corresponds to set `A_175 = {5, 18, 24, 43, 52, 56}`
+- Variable `x_176` corresponds to set `A_176 = {5, 13, 18, 40, 41, 55}`
+- Variable `x_177` corresponds to set `A_177 = {24, 39, 58, 60, 65, 68}`
+- Variable `x_178` corresponds to set `A_178 = {8, 18, 31, 39, 59, 67}`
+- Variable `x_179` corresponds to set `A_179 = {13, 14, 24, 49, 55, 59}`
+- Variable `x_180` corresponds to set `A_180 = {3, 4, 20, 35, 47, 62}`
+
+## Exact constraints
+
+- Constraint `1`: x_2 + x_7 + x_17 + x_49 + x_66 + x_77 + x_89 + x_96 + x_98 + x_100 + x_135 + x_167 <= 1
+- Constraint `2`: x_8 + x_27 + x_28 + x_41 + x_47 + x_49 + x_61 + x_62 + x_71 + x_73 + x_87 + x_142 + x_154 + x_163 + x_165 + x_166 <= 1
+- Constraint `3`: x_44 + x_59 + x_62 + x_63 + x_75 + x_99 + x_104 + x_123 + x_137 + x_141 + x_152 + x_170 + x_171 + x_180 <= 1
+- Constraint `4`: x_28 + x_42 + x_54 + x_55 + x_61 + x_67 + x_68 + x_79 + x_86 + x_105 + x_123 + x_139 + x_161 + x_163 + x_165 + x_169 + x_180 <= 1
+- Constraint `5`: x_22 + x_41 + x_53 + x_82 + x_91 + x_98 + x_108 + x_111 + x_121 + x_124 + x_133 + x_135 + x_142 + x_165 + x_174 + x_175 + x_176 <= 1
+- Constraint `6`: x_7 + x_13 + x_34 + x_37 + x_53 + x_60 + x_64 + x_67 + x_73 + x_77 + x_79 + x_93 + x_113 + x_125 + x_144 + x_157 + x_159 + x_160 + x_172 <= 1
+- Constraint `7`: x_9 + x_16 + x_24 + x_45 + x_53 + x_80 + x_89 + x_110 + x_128 + x_137 + x_154 + x_156 + x_164 + x_171 <= 1
+- Constraint `8`: x_4 + x_10 + x_20 + x_40 + x_45 + x_49 + x_50 + x_63 + x_72 + x_76 + x_102 + x_111 + x_127 + x_146 + x_152 + x_157 + x_160 + x_167 + x_173 + x_178 <= 1
+- Constraint `9`: x_1 + x_14 + x_38 + x_47 + x_107 + x_121 + x_156 + x_161 + x_166 <= 1
+- Constraint `10`: x_11 + x_22 + x_45 + x_54 + x_63 + x_72 + x_81 + x_104 + x_113 + x_114 + x_117 + x_122 + x_127 + x_128 + x_131 + x_148 <= 1
+- Constraint `11`: x_2 + x_5 + x_19 + x_24 + x_32 + x_36 + x_40 + x_61 + x_78 + x_102 + x_105 + x_113 + x_123 + x_134 + x_147 + x_168 <= 1
+- Constraint `12`: x_10 + x_20 + x_25 + x_27 + x_41 + x_48 + x_50 + x_65 + x_87 + x_104 + x_113 + x_126 + x_134 + x_147 + x_174 <= 1
+- Constraint `13`: x_24 + x_37 + x_38 + x_69 + x_70 + x_71 + x_90 + x_96 + x_108 + x_118 + x_135 + x_140 + x_162 + x_176 + x_179 <= 1
+- Constraint `14`: x_3 + x_18 + x_21 + x_35 + x_58 + x_99 + x_132 + x_150 + x_163 + x_179 <= 1
+- Constraint `15`: x_3 + x_9 + x_10 + x_21 + x_22 + x_31 + x_85 + x_90 + x_106 + x_116 + x_122 + x_124 + x_136 + x_149 + x_160 + x_162 + x_166 + x_174 <= 1
+- Constraint `16`: x_1 + x_4 + x_5 + x_19 + x_29 + x_43 + x_50 + x_55 + x_56 + x_65 + x_82 + x_99 + x_130 + x_151 + x_153 <= 1
+- Constraint `17`: x_23 + x_44 + x_52 + x_77 + x_78 + x_80 + x_86 + x_97 + x_119 + x_120 + x_169 + x_172 <= 1
+- Constraint `18`: x_4 + x_40 + x_55 + x_65 + x_76 + x_81 + x_93 + x_107 + x_129 + x_143 + x_145 + x_166 + x_169 + x_175 + x_176 + x_178 <= 1
+- Constraint `19`: x_4 + x_39 + x_57 + x_74 + x_88 + x_100 + x_115 + x_119 + x_132 + x_137 + x_138 + x_141 + x_143 + x_156 + x_167 <= 1
+- Constraint `20`: x_20 + x_27 + x_36 + x_59 + x_84 + x_90 + x_116 + x_148 + x_149 + x_158 + x_180 <= 1
+- Constraint `21`: x_8 + x_67 + x_87 + x_106 + x_110 + x_115 + x_123 + x_137 + x_140 + x_146 + x_161 + x_162 <= 1
+- Constraint `22`: x_11 + x_17 + x_30 + x_46 + x_50 + x_58 + x_59 + x_62 + x_69 + x_81 + x_88 + x_91 + x_94 + x_95 + x_101 + x_129 + x_134 + x_151 + x_152 + x_160 + x_162 <= 1
+- Constraint `23`: x_6 + x_9 + x_31 + x_36 + x_41 + x_42 + x_56 + x_57 + x_60 + x_67 + x_97 + x_105 + x_106 + x_110 + x_120 + x_134 + x_148 + x_159 + x_165 + x_172 <= 1
+- Constraint `24`: x_15 + x_18 + x_38 + x_46 + x_50 + x_84 + x_95 + x_111 + x_118 + x_131 + x_147 + x_153 + x_154 + x_175 + x_177 + x_179 <= 1
+- Constraint `25`: x_33 + x_42 + x_46 + x_51 + x_55 + x_65 + x_67 + x_103 + x_105 + x_107 + x_117 + x_122 + x_127 + x_131 + x_136 + x_142 + x_163 + x_167 + x_168 <= 1
+- Constraint `26`: x_3 + x_11 + x_12 + x_27 + x_44 + x_62 + x_68 + x_84 + x_86 + x_98 + x_103 + x_125 + x_139 + x_141 + x_147 + x_161 <= 1
+- Constraint `27`: x_5 + x_8 + x_16 + x_19 + x_23 + x_29 + x_62 + x_68 + x_84 + x_107 + x_116 + x_129 + x_131 + x_133 + x_141 <= 1
+- Constraint `28`: x_15 + x_21 + x_27 + x_29 + x_30 + x_31 + x_32 + x_59 + x_84 + x_89 + x_91 + x_95 + x_159 + x_172 <= 1
+- Constraint `29`: x_1 + x_36 + x_41 + x_45 + x_47 + x_49 + x_83 + x_89 + x_90 + x_91 + x_93 + x_96 + x_139 + x_148 + x_155 + x_156 <= 1
+- Constraint `30`: x_3 + x_5 + x_8 + x_14 + x_24 + x_39 + x_46 + x_71 + x_92 + x_120 + x_151 + x_158 + x_164 + x_166 <= 1
+- Constraint `31`: x_6 + x_10 + x_21 + x_53 + x_69 + x_72 + x_92 + x_104 + x_112 + x_124 + x_133 + x_139 + x_142 + x_156 + x_174 + x_178 <= 1
+- Constraint `32`: x_8 + x_14 + x_17 + x_28 + x_30 + x_37 + x_40 + x_60 + x_93 + x_96 + x_98 + x_111 + x_127 + x_131 + x_136 + x_146 + x_160 <= 1
+- Constraint `33`: x_26 + x_30 + x_52 + x_61 + x_64 + x_94 + x_105 + x_109 + x_112 + x_122 + x_135 + x_143 + x_145 + x_150 + x_151 + x_157 + x_167 + x_168 + x_173 <= 1
+- Constraint `34`: x_7 + x_18 + x_30 + x_32 + x_48 + x_115 + x_125 + x_152 <= 1
+- Constraint `35`: x_15 + x_18 + x_28 + x_33 + x_37 + x_58 + x_67 + x_70 + x_85 + x_86 + x_140 + x_148 + x_150 + x_155 + x_168 + x_180 <= 1
+- Constraint `36`: x_1 + x_7 + x_13 + x_31 + x_34 + x_70 + x_83 + x_88 + x_107 + x_115 + x_120 + x_124 + x_125 + x_158 + x_163 + x_164 + x_170 + x_171 <= 1
+- Constraint `37`: x_6 + x_7 + x_8 + x_9 + x_14 + x_22 + x_44 + x_47 + x_49 + x_65 + x_69 + x_72 + x_97 + x_114 + x_117 + x_119 + x_121 + x_154 + x_161 <= 1
+- Constraint `38`: x_34 + x_75 + x_80 + x_92 + x_100 + x_103 + x_118 + x_119 + x_125 + x_136 + x_145 + x_155 <= 1
+- Constraint `39`: x_26 + x_27 + x_32 + x_33 + x_76 + x_78 + x_94 + x_100 + x_101 + x_124 + x_131 + x_132 + x_143 + x_177 + x_178 <= 1
+- Constraint `40`: x_1 + x_2 + x_12 + x_20 + x_42 + x_43 + x_73 + x_74 + x_89 + x_93 + x_101 + x_103 + x_110 + x_113 + x_127 + x_135 + x_157 + x_164 + x_176 <= 1
+- Constraint `41`: x_12 + x_28 + x_37 + x_75 + x_79 + x_114 + x_120 + x_127 + x_143 + x_146 + x_149 + x_170 + x_176 <= 1
+- Constraint `42`: x_16 + x_29 + x_39 + x_76 + x_82 + x_83 + x_97 + x_104 + x_121 + x_138 + x_139 + x_144 + x_153 + x_165 + x_172 + x_173 <= 1
+- Constraint `43`: x_20 + x_46 + x_48 + x_52 + x_83 + x_94 + x_96 + x_112 + x_114 + x_116 + x_132 + x_140 + x_158 + x_160 + x_171 + x_175 <= 1
+- Constraint `44`: x_22 + x_26 + x_44 + x_45 + x_47 + x_48 + x_59 + x_66 + x_99 + x_100 + x_101 + x_126 + x_130 <= 1
+- Constraint `45`: x_11 + x_26 + x_42 + x_57 + x_105 + x_152 + x_157 + x_165 + x_171 + x_172 <= 1
+- Constraint `46`: x_9 + x_11 + x_12 + x_18 + x_23 + x_25 + x_39 + x_40 + x_74 + x_92 + x_93 + x_102 + x_123 + x_174 <= 1
+- Constraint `47`: x_6 + x_12 + x_20 + x_25 + x_26 + x_29 + x_31 + x_33 + x_39 + x_40 + x_51 + x_64 + x_75 + x_76 + x_80 + x_85 + x_95 + x_110 + x_129 + x_134 + x_152 + x_153 + x_159 + x_180 <= 1
+- Constraint `48`: x_13 + x_16 + x_33 + x_36 + x_52 + x_61 + x_68 + x_80 + x_88 + x_101 + x_122 + x_147 <= 1
+- Constraint `49`: x_7 + x_33 + x_35 + x_51 + x_53 + x_56 + x_75 + x_82 + x_91 + x_99 + x_102 + x_122 + x_130 + x_133 + x_155 + x_163 + x_173 + x_179 <= 1
+- Constraint `50`: x_23 + x_25 + x_38 + x_39 + x_43 + x_45 + x_79 + x_102 + x_108 + x_109 + x_112 + x_116 + x_125 + x_162 + x_164 <= 1
+- Constraint `51`: x_17 + x_19 + x_28 + x_43 + x_57 + x_58 + x_86 + x_87 + x_90 + x_106 + x_126 + x_128 + x_144 + x_150 + x_156 + x_169 <= 1
+- Constraint `52`: x_2 + x_17 + x_51 + x_60 + x_88 + x_96 + x_109 + x_111 + x_115 + x_119 + x_126 + x_140 + x_145 + x_169 + x_175 <= 1
+- Constraint `53`: x_38 + x_44 + x_69 + x_70 + x_71 + x_78 + x_81 + x_84 + x_94 + x_98 + x_102 + x_106 + x_117 <= 1
+- Constraint `54`: x_26 + x_52 + x_53 + x_56 + x_64 + x_74 + x_78 + x_83 + x_91 + x_97 + x_106 + x_132 + x_141 <= 1
+- Constraint `55`: x_4 + x_14 + x_18 + x_25 + x_29 + x_35 + x_54 + x_104 + x_113 + x_118 + x_147 + x_149 + x_176 + x_179 <= 1
+- Constraint `56`: x_2 + x_13 + x_19 + x_24 + x_37 + x_43 + x_54 + x_56 + x_66 + x_77 + x_88 + x_94 + x_98 + x_112 + x_128 + x_144 + x_170 + x_175 <= 1
+- Constraint `57`: x_38 + x_43 + x_50 + x_66 + x_73 + x_83 + x_85 + x_92 + x_107 + x_109 + x_117 + x_138 + x_158 + x_168 + x_170 <= 1
+- Constraint `58`: x_2 + x_3 + x_25 + x_52 + x_66 + x_85 + x_87 + x_100 + x_108 + x_109 + x_129 + x_154 + x_164 + x_171 + x_173 + x_177 <= 1
+- Constraint `59`: x_5 + x_6 + x_31 + x_34 + x_48 + x_55 + x_58 + x_71 + x_73 + x_77 + x_80 + x_82 + x_89 + x_101 + x_121 + x_138 + x_144 + x_146 + x_162 + x_178 + x_179 <= 1
+- Constraint `60`: x_3 + x_13 + x_14 + x_21 + x_24 + x_35 + x_51 + x_72 + x_74 + x_76 + x_110 + x_112 + x_115 + x_153 + x_159 + x_177 <= 1
+- Constraint `61`: x_36 + x_46 + x_54 + x_55 + x_56 + x_82 + x_97 + x_129 + x_133 + x_142 + x_155 + x_158 + x_159 <= 1
+- Constraint `62`: x_1 + x_4 + x_10 + x_15 + x_16 + x_63 + x_103 + x_108 + x_146 + x_157 + x_180 <= 1
+- Constraint `63`: x_10 + x_32 + x_41 + x_42 + x_78 + x_95 + x_117 + x_118 + x_121 + x_136 <= 1
+- Constraint `64`: x_5 + x_9 + x_15 + x_16 + x_21 + x_22 + x_48 + x_49 + x_51 + x_59 + x_64 + x_81 + x_99 + x_114 + x_116 + x_120 + x_126 + x_135 + x_161 <= 1
+- Constraint `65`: x_15 + x_17 + x_35 + x_54 + x_60 + x_61 + x_68 + x_69 + x_72 + x_75 + x_79 + x_95 + x_123 + x_136 + x_137 + x_145 + x_148 + x_154 + x_167 + x_173 + x_174 + x_177 <= 1
+- Constraint `66`: x_57 + x_68 + x_77 + x_109 + x_126 + x_139 + x_141 + x_144 + x_150 <= 1
+- Constraint `67`: x_12 + x_19 + x_23 + x_63 + x_86 + x_90 + x_119 + x_128 + x_130 + x_132 + x_151 + x_155 + x_168 + x_178 <= 1
+- Constraint `68`: x_6 + x_58 + x_70 + x_73 + x_74 + x_114 + x_130 + x_137 + x_150 + x_151 + x_153 + x_170 + x_177 <= 1
+- Constraint `69`: x_23 + x_34 + x_47 + x_60 + x_64 + x_66 + x_70 + x_71 + x_79 + x_81 + x_85 + x_92 + x_108 + x_118 + x_133 + x_138 + x_143 + x_149 <= 1
+- Constraint `70`: x_11 + x_13 + x_30 + x_32 + x_34 + x_35 + x_57 + x_62 + x_63 + x_65 + x_87 + x_103 + x_111 + x_124 + x_128 + x_130 + x_134 + x_138 + x_140 + x_142 + x_145 + x_149 + x_166 + x_169 <= 1

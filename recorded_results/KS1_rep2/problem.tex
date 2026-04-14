@@ -1,0 +1,182 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\begin{document}
+\section*{Original problem: kset\_u30\_n60\_k4}
+This document records the exact original binary packing problem used for the matching run result.
+\[
+\max_{x\in\{0,1\}^n}\ \sum_{i=1}^n w_i x_i
+\qquad\text{s.t.}\qquad
+\sum_{i\in S_k} x_i \le B_k,\quad k=1,\dots,m.
+\]
+Number of variables: 60.\\
+Number of constraints: 30.\\
+Matching run-result file: \texttt{result.json}.
+\subsection*{Metadata}
+\begin{itemize}
+\item \texttt{generator}: \texttt{random\_k\_set\_packing}
+\item \texttt{universe\_size}: \texttt{30}
+\item \texttt{k}: \texttt{4}
+\item \texttt{density}: \texttt{1.0}
+\end{itemize}
+\subsection*{Weights}
+\begin{itemize}
+\item $w_{1} = 0.68324817$
+\item $w_{2} = 1.7996505$
+\item $w_{3} = 1.2953118$
+\item $w_{4} = 1.8339267$
+\item $w_{5} = 1.0050675$
+\item $w_{6} = 1.0260358$
+\item $w_{7} = 1.4497261$
+\item $w_{8} = 0.54287935$
+\item $w_{9} = 0.78730827$
+\item $w_{10} = 0.97539295$
+\item $w_{11} = 1.9296795$
+\item $w_{12} = 1.7660904$
+\item $w_{13} = 1.0921443$
+\item $w_{14} = 1.9110359$
+\item $w_{15} = 0.98253478$
+\item $w_{16} = 1.3342277$
+\item $w_{17} = 1.1943121$
+\item $w_{18} = 0.63534528$
+\item $w_{19} = 1.5364584$
+\item $w_{20} = 0.72884859$
+\item $w_{21} = 0.78976401$
+\item $w_{22} = 0.82644393$
+\item $w_{23} = 0.97310043$
+\item $w_{24} = 0.6350575$
+\item $w_{25} = 0.52197983$
+\item $w_{26} = 1.8212195$
+\item $w_{27} = 1.020616$
+\item $w_{28} = 1.0058114$
+\item $w_{29} = 1.0393401$
+\item $w_{30} = 0.56312702$
+\item $w_{31} = 1.9950096$
+\item $w_{32} = 1.3299083$
+\item $w_{33} = 1.3316395$
+\item $w_{34} = 0.80868413$
+\item $w_{35} = 1.1579511$
+\item $w_{36} = 1.7407738$
+\item $w_{37} = 1.8530774$
+\item $w_{38} = 0.98297219$
+\item $w_{39} = 1.9721959$
+\item $w_{40} = 0.90480964$
+\item $w_{41} = 1.7049845$
+\item $w_{42} = 1.8189541$
+\item $w_{43} = 1.0219457$
+\item $w_{44} = 1.5766683$
+\item $w_{45} = 0.84561669$
+\item $w_{46} = 0.98444531$
+\item $w_{47} = 0.94427129$
+\item $w_{48} = 1.2523809$
+\item $w_{49} = 1.0936989$
+\item $w_{50} = 0.93125607$
+\item $w_{51} = 0.53393468$
+\item $w_{52} = 1.9726255$
+\item $w_{53} = 1.4859985$
+\item $w_{54} = 0.84561124$
+\item $w_{55} = 1.6412165$
+\item $w_{56} = 1.1226452$
+\item $w_{57} = 0.63942009$
+\item $w_{58} = 0.87726775$
+\item $w_{59} = 0.94107815$
+\item $w_{60} = 1.7733989$
+\end{itemize}
+\subsection*{Candidate sets (variables)}
+\begin{itemize}
+\item $x_{1}$ corresponds to $A_{1}=\{8, 13, 19, 30\}$.
+\item $x_{2}$ corresponds to $A_{2}=\{16, 18, 26, 27\}$.
+\item $x_{3}$ corresponds to $A_{3}=\{7, 12, 21, 28\}$.
+\item $x_{4}$ corresponds to $A_{4}=\{6, 11, 20, 28\}$.
+\item $x_{5}$ corresponds to $A_{5}=\{7, 12, 25, 30\}$.
+\item $x_{6}$ corresponds to $A_{6}=\{9, 10, 21, 25\}$.
+\item $x_{7}$ corresponds to $A_{7}=\{1, 14, 24, 29\}$.
+\item $x_{8}$ corresponds to $A_{8}=\{4, 15, 23, 27\}$.
+\item $x_{9}$ corresponds to $A_{9}=\{7, 11, 26, 29\}$.
+\item $x_{10}$ corresponds to $A_{10}=\{4, 6, 13, 15\}$.
+\item $x_{11}$ corresponds to $A_{11}=\{4, 5, 20, 23\}$.
+\item $x_{12}$ corresponds to $A_{12}=\{1, 9, 14, 18\}$.
+\item $x_{13}$ corresponds to $A_{13}=\{1, 3, 16, 24\}$.
+\item $x_{14}$ corresponds to $A_{14}=\{5, 6, 16, 24\}$.
+\item $x_{15}$ corresponds to $A_{15}=\{17, 23, 25, 28\}$.
+\item $x_{16}$ corresponds to $A_{16}=\{9, 20, 24, 30\}$.
+\item $x_{17}$ corresponds to $A_{17}=\{17, 19, 21, 23\}$.
+\item $x_{18}$ corresponds to $A_{18}=\{2, 15, 18, 27\}$.
+\item $x_{19}$ corresponds to $A_{19}=\{2, 14, 18, 26\}$.
+\item $x_{20}$ corresponds to $A_{20}=\{4, 10, 18, 28\}$.
+\item $x_{21}$ corresponds to $A_{21}=\{2, 16, 17, 19\}$.
+\item $x_{22}$ corresponds to $A_{22}=\{2, 17, 18, 19\}$.
+\item $x_{23}$ corresponds to $A_{23}=\{9, 16, 24, 26\}$.
+\item $x_{24}$ corresponds to $A_{24}=\{2, 8, 19, 24\}$.
+\item $x_{25}$ corresponds to $A_{25}=\{21, 24, 29, 30\}$.
+\item $x_{26}$ corresponds to $A_{26}=\{1, 5, 21, 22\}$.
+\item $x_{27}$ corresponds to $A_{27}=\{10, 12, 16, 25\}$.
+\item $x_{28}$ corresponds to $A_{28}=\{6, 8, 17, 22\}$.
+\item $x_{29}$ corresponds to $A_{29}=\{4, 5, 16, 21\}$.
+\item $x_{30}$ corresponds to $A_{30}=\{7, 24, 25, 29\}$.
+\item $x_{31}$ corresponds to $A_{31}=\{2, 5, 28, 29\}$.
+\item $x_{32}$ corresponds to $A_{32}=\{16, 23, 26, 29\}$.
+\item $x_{33}$ corresponds to $A_{33}=\{7, 14, 17, 20\}$.
+\item $x_{34}$ corresponds to $A_{34}=\{1, 5, 9, 19\}$.
+\item $x_{35}$ corresponds to $A_{35}=\{1, 19, 20, 21\}$.
+\item $x_{36}$ corresponds to $A_{36}=\{5, 11, 27, 30\}$.
+\item $x_{37}$ corresponds to $A_{37}=\{8, 19, 20, 29\}$.
+\item $x_{38}$ corresponds to $A_{38}=\{7, 10, 14, 18\}$.
+\item $x_{39}$ corresponds to $A_{39}=\{7, 11, 20, 27\}$.
+\item $x_{40}$ corresponds to $A_{40}=\{1, 2, 23, 27\}$.
+\item $x_{41}$ corresponds to $A_{41}=\{16, 17, 21, 25\}$.
+\item $x_{42}$ corresponds to $A_{42}=\{6, 13, 14, 29\}$.
+\item $x_{43}$ corresponds to $A_{43}=\{8, 16, 22, 26\}$.
+\item $x_{44}$ corresponds to $A_{44}=\{12, 18, 21, 27\}$.
+\item $x_{45}$ corresponds to $A_{45}=\{1, 4, 19, 27\}$.
+\item $x_{46}$ corresponds to $A_{46}=\{2, 11, 14, 16\}$.
+\item $x_{47}$ corresponds to $A_{47}=\{9, 13, 17, 30\}$.
+\item $x_{48}$ corresponds to $A_{48}=\{3, 5, 14, 23\}$.
+\item $x_{49}$ corresponds to $A_{49}=\{1, 14, 20, 29\}$.
+\item $x_{50}$ corresponds to $A_{50}=\{2, 4, 8, 23\}$.
+\item $x_{51}$ corresponds to $A_{51}=\{2, 8, 11, 19\}$.
+\item $x_{52}$ corresponds to $A_{52}=\{8, 12, 15, 23\}$.
+\item $x_{53}$ corresponds to $A_{53}=\{3, 9, 15, 21\}$.
+\item $x_{54}$ corresponds to $A_{54}=\{1, 15, 24, 26\}$.
+\item $x_{55}$ corresponds to $A_{55}=\{4, 20, 22, 24\}$.
+\item $x_{56}$ corresponds to $A_{56}=\{5, 23, 25, 26\}$.
+\item $x_{57}$ corresponds to $A_{57}=\{3, 11, 15, 25\}$.
+\item $x_{58}$ corresponds to $A_{58}=\{9, 11, 22, 23\}$.
+\item $x_{59}$ corresponds to $A_{59}=\{12, 17, 29, 30\}$.
+\item $x_{60}$ corresponds to $A_{60}=\{1, 2, 17, 19\}$.
+\end{itemize}
+\subsection*{Exact constraints}
+\begin{itemize}
+\item Constraint 1: $x_{7} + x_{12} + x_{13} + x_{26} + x_{34} + x_{35} + x_{40} + x_{45} + x_{49} + x_{54} + x_{60} \le 1$
+\item Constraint 2: $x_{18} + x_{19} + x_{21} + x_{22} + x_{24} + x_{31} + x_{40} + x_{46} + x_{50} + x_{51} + x_{60} \le 1$
+\item Constraint 3: $x_{13} + x_{48} + x_{53} + x_{57} \le 1$
+\item Constraint 4: $x_{8} + x_{10} + x_{11} + x_{20} + x_{29} + x_{45} + x_{50} + x_{55} \le 1$
+\item Constraint 5: $x_{11} + x_{14} + x_{26} + x_{29} + x_{31} + x_{34} + x_{36} + x_{48} + x_{56} \le 1$
+\item Constraint 6: $x_{4} + x_{10} + x_{14} + x_{28} + x_{42} \le 1$
+\item Constraint 7: $x_{3} + x_{5} + x_{9} + x_{30} + x_{33} + x_{38} + x_{39} \le 1$
+\item Constraint 8: $x_{1} + x_{24} + x_{28} + x_{37} + x_{43} + x_{50} + x_{51} + x_{52} \le 1$
+\item Constraint 9: $x_{6} + x_{12} + x_{16} + x_{23} + x_{34} + x_{47} + x_{53} + x_{58} \le 1$
+\item Constraint 10: $x_{6} + x_{20} + x_{27} + x_{38} \le 1$
+\item Constraint 11: $x_{4} + x_{9} + x_{36} + x_{39} + x_{46} + x_{51} + x_{57} + x_{58} \le 1$
+\item Constraint 12: $x_{3} + x_{5} + x_{27} + x_{44} + x_{52} + x_{59} \le 1$
+\item Constraint 13: $x_{1} + x_{10} + x_{42} + x_{47} \le 1$
+\item Constraint 14: $x_{7} + x_{12} + x_{19} + x_{33} + x_{38} + x_{42} + x_{46} + x_{48} + x_{49} \le 1$
+\item Constraint 15: $x_{8} + x_{10} + x_{18} + x_{52} + x_{53} + x_{54} + x_{57} \le 1$
+\item Constraint 16: $x_{2} + x_{13} + x_{14} + x_{21} + x_{23} + x_{27} + x_{29} + x_{32} + x_{41} + x_{43} + x_{46} \le 1$
+\item Constraint 17: $x_{15} + x_{17} + x_{21} + x_{22} + x_{28} + x_{33} + x_{41} + x_{47} + x_{59} + x_{60} \le 1$
+\item Constraint 18: $x_{2} + x_{12} + x_{18} + x_{19} + x_{20} + x_{22} + x_{38} + x_{44} \le 1$
+\item Constraint 19: $x_{1} + x_{17} + x_{21} + x_{22} + x_{24} + x_{34} + x_{35} + x_{37} + x_{45} + x_{51} + x_{60} \le 1$
+\item Constraint 20: $x_{4} + x_{11} + x_{16} + x_{33} + x_{35} + x_{37} + x_{39} + x_{49} + x_{55} \le 1$
+\item Constraint 21: $x_{3} + x_{6} + x_{17} + x_{25} + x_{26} + x_{29} + x_{35} + x_{41} + x_{44} + x_{53} \le 1$
+\item Constraint 22: $x_{26} + x_{28} + x_{43} + x_{55} + x_{58} \le 1$
+\item Constraint 23: $x_{8} + x_{11} + x_{15} + x_{17} + x_{32} + x_{40} + x_{48} + x_{50} + x_{52} + x_{56} + x_{58} \le 1$
+\item Constraint 24: $x_{7} + x_{13} + x_{14} + x_{16} + x_{23} + x_{24} + x_{25} + x_{30} + x_{54} + x_{55} \le 1$
+\item Constraint 25: $x_{5} + x_{6} + x_{15} + x_{27} + x_{30} + x_{41} + x_{56} + x_{57} \le 1$
+\item Constraint 26: $x_{2} + x_{9} + x_{19} + x_{23} + x_{32} + x_{43} + x_{54} + x_{56} \le 1$
+\item Constraint 27: $x_{2} + x_{8} + x_{18} + x_{36} + x_{39} + x_{40} + x_{44} + x_{45} \le 1$
+\item Constraint 28: $x_{3} + x_{4} + x_{15} + x_{20} + x_{31} \le 1$
+\item Constraint 29: $x_{7} + x_{9} + x_{25} + x_{30} + x_{31} + x_{32} + x_{37} + x_{42} + x_{49} + x_{59} \le 1$
+\item Constraint 30: $x_{1} + x_{5} + x_{16} + x_{25} + x_{36} + x_{47} + x_{59} \le 1$
+\end{itemize}
+\end{document}

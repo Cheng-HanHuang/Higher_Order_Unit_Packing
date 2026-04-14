@@ -1,0 +1,148 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[T1]{fontenc}
+\begin{document}
+\section*{Original problem: random\_unit\_n40\_m80\_mixed}
+This document records the exact original binary packing problem used for the matching run result.
+\[
+\max_{x\in\{0,1\}^n}\ \sum_{i=1}^n w_i x_i
+\qquad\text{s.t.}\qquad
+\sum_{i\in S_k} x_i \le B_k,\quad k=1,\dots,m.
+\]
+Number of variables: 40.\\
+Number of constraints: 80.\\
+Matching run-result file: \texttt{result.json}.
+\subsection*{Metadata}
+\begin{itemize}
+\item \texttt{generator}: \texttt{random\_unit\_packing}
+\item \texttt{row\_size\_range}: \texttt{[4, 8]}
+\item \texttt{capacity\_mode}: \texttt{mixed}
+\end{itemize}
+\subsection*{Weights}
+\begin{itemize}
+\item $w_{1} = 1.8471408$
+\item $w_{2} = 1.1572796$
+\item $w_{3} = 0.64883407$
+\item $w_{4} = 1.2129144$
+\item $w_{5} = 1.9358299$
+\item $w_{6} = 1.7653139$
+\item $w_{7} = 1.9650837$
+\item $w_{8} = 1.4611214$
+\item $w_{9} = 1.7843255$
+\item $w_{10} = 1.8751933$
+\item $w_{11} = 1.3735885$
+\item $w_{12} = 0.71673101$
+\item $w_{13} = 1.8630396$
+\item $w_{14} = 0.74307546$
+\item $w_{15} = 1.4350028$
+\item $w_{16} = 1.0998168$
+\item $w_{17} = 1.5987087$
+\item $w_{18} = 0.87489721$
+\item $w_{19} = 1.4808872$
+\item $w_{20} = 0.88249282$
+\item $w_{21} = 1.4598842$
+\item $w_{22} = 1.9915298$
+\item $w_{23} = 0.58234876$
+\item $w_{24} = 1.3566959$
+\item $w_{25} = 1.8112465$
+\item $w_{26} = 1.3927456$
+\item $w_{27} = 0.76469562$
+\item $w_{28} = 1.5909776$
+\item $w_{29} = 1.2784677$
+\item $w_{30} = 1.4116039$
+\item $w_{31} = 1.6965943$
+\item $w_{32} = 1.6920853$
+\item $w_{33} = 0.93352342$
+\item $w_{34} = 1.7399646$
+\item $w_{35} = 1.7220341$
+\item $w_{36} = 1.6503986$
+\item $w_{37} = 1.0099036$
+\item $w_{38} = 0.96159794$
+\item $w_{39} = 1.9178674$
+\item $w_{40} = 0.71512681$
+\end{itemize}
+\subsection*{Exact constraints}
+\begin{itemize}
+\item Constraint 1: $x_{2} + x_{7} + x_{8} + x_{21} + x_{25} \le 3$
+\item Constraint 2: $x_{7} + x_{16} + x_{17} + x_{35} + x_{36} \le 1$
+\item Constraint 3: $x_{10} + x_{20} + x_{24} + x_{30} + x_{35} \le 1$
+\item Constraint 4: $x_{3} + x_{5} + x_{9} + x_{19} + x_{25} \le 2$
+\item Constraint 5: $x_{11} + x_{19} + x_{22} + x_{26} + x_{30} + x_{34} + x_{40} \le 1$
+\item Constraint 6: $x_{2} + x_{9} + x_{13} + x_{16} + x_{20} + x_{22} \le 1$
+\item Constraint 7: $x_{4} + x_{6} + x_{13} + x_{17} + x_{30} + x_{34} + x_{35} \le 5$
+\item Constraint 8: $x_{10} + x_{19} + x_{20} + x_{31} + x_{32} + x_{39} \le 5$
+\item Constraint 9: $x_{13} + x_{17} + x_{36} + x_{40} \le 1$
+\item Constraint 10: $x_{12} + x_{13} + x_{18} + x_{19} + x_{32} + x_{33} + x_{37} \le 4$
+\item Constraint 11: $x_{4} + x_{10} + x_{12} + x_{14} + x_{19} + x_{23} + x_{24} \le 4$
+\item Constraint 12: $x_{3} + x_{13} + x_{14} + x_{21} + x_{27} \le 4$
+\item Constraint 13: $x_{2} + x_{18} + x_{19} + x_{29} \le 3$
+\item Constraint 14: $x_{10} + x_{23} + x_{27} + x_{34} + x_{36} + x_{37} + x_{38} \le 4$
+\item Constraint 15: $x_{1} + x_{3} + x_{8} + x_{13} + x_{17} + x_{36} + x_{39} \le 5$
+\item Constraint 16: $x_{11} + x_{12} + x_{20} + x_{27} + x_{35} + x_{37} + x_{40} \le 5$
+\item Constraint 17: $x_{9} + x_{10} + x_{13} + x_{15} + x_{19} + x_{31} + x_{36} + x_{39} \le 3$
+\item Constraint 18: $x_{5} + x_{6} + x_{10} + x_{14} + x_{25} + x_{26} + x_{31} + x_{34} \le 6$
+\item Constraint 19: $x_{11} + x_{14} + x_{17} + x_{22} + x_{23} + x_{27} + x_{28} \le 6$
+\item Constraint 20: $x_{1} + x_{5} + x_{29} + x_{37} \le 3$
+\item Constraint 21: $x_{2} + x_{8} + x_{14} + x_{15} + x_{24} + x_{40} \le 3$
+\item Constraint 22: $x_{8} + x_{23} + x_{33} + x_{34} \le 3$
+\item Constraint 23: $x_{1} + x_{3} + x_{30} + x_{31} \le 3$
+\item Constraint 24: $x_{1} + x_{4} + x_{9} + x_{12} + x_{14} + x_{17} + x_{22} + x_{37} \le 6$
+\item Constraint 25: $x_{2} + x_{17} + x_{19} + x_{20} + x_{30} + x_{35} \le 4$
+\item Constraint 26: $x_{10} + x_{14} + x_{21} + x_{25} + x_{26} + x_{27} \le 2$
+\item Constraint 27: $x_{4} + x_{10} + x_{13} + x_{28} + x_{32} + x_{35} + x_{39} \le 3$
+\item Constraint 28: $x_{7} + x_{18} + x_{36} + x_{37} \le 3$
+\item Constraint 29: $x_{6} + x_{10} + x_{22} + x_{40} \le 2$
+\item Constraint 30: $x_{13} + x_{15} + x_{35} + x_{36} + x_{39} \le 3$
+\item Constraint 31: $x_{2} + x_{11} + x_{15} + x_{19} + x_{25} + x_{33} + x_{36} + x_{38} \le 3$
+\item Constraint 32: $x_{8} + x_{16} + x_{17} + x_{22} + x_{27} + x_{30} + x_{35} \le 3$
+\item Constraint 33: $x_{7} + x_{9} + x_{21} + x_{22} + x_{29} + x_{31} \le 4$
+\item Constraint 34: $x_{8} + x_{14} + x_{16} + x_{27} + x_{30} + x_{31} + x_{37} + x_{40} \le 3$
+\item Constraint 35: $x_{5} + x_{6} + x_{7} + x_{11} + x_{18} \le 1$
+\item Constraint 36: $x_{2} + x_{4} + x_{6} + x_{8} + x_{24} + x_{33} + x_{34} + x_{40} \le 2$
+\item Constraint 37: $x_{2} + x_{3} + x_{4} + x_{25} + x_{27} + x_{39} + x_{40} \le 5$
+\item Constraint 38: $x_{1} + x_{7} + x_{18} + x_{19} + x_{20} + x_{31} + x_{37} \le 6$
+\item Constraint 39: $x_{18} + x_{19} + x_{26} + x_{28} + x_{35} + x_{36} \le 3$
+\item Constraint 40: $x_{6} + x_{13} + x_{20} + x_{21} + x_{25} + x_{35} \le 3$
+\item Constraint 41: $x_{2} + x_{11} + x_{34} + x_{38} \le 2$
+\item Constraint 42: $x_{14} + x_{16} + x_{19} + x_{21} + x_{25} + x_{37} \le 2$
+\item Constraint 43: $x_{6} + x_{10} + x_{15} + x_{20} + x_{21} + x_{22} + x_{32} + x_{39} \le 5$
+\item Constraint 44: $x_{2} + x_{10} + x_{23} + x_{36} \le 3$
+\item Constraint 45: $x_{2} + x_{8} + x_{23} + x_{28} \le 1$
+\item Constraint 46: $x_{13} + x_{15} + x_{17} + x_{29} \le 1$
+\item Constraint 47: $x_{6} + x_{13} + x_{16} + x_{23} + x_{28} + x_{32} + x_{34} \le 6$
+\item Constraint 48: $x_{8} + x_{9} + x_{15} + x_{18} + x_{20} + x_{29} + x_{36} + x_{37} \le 5$
+\item Constraint 49: $x_{5} + x_{6} + x_{7} + x_{9} + x_{14} + x_{35} + x_{38} + x_{39} \le 4$
+\item Constraint 50: $x_{3} + x_{5} + x_{8} + x_{24} + x_{29} + x_{32} + x_{33} \le 2$
+\item Constraint 51: $x_{5} + x_{6} + x_{10} + x_{14} + x_{26} + x_{30} + x_{38} + x_{40} \le 4$
+\item Constraint 52: $x_{7} + x_{17} + x_{24} + x_{31} + x_{32} + x_{40} \le 5$
+\item Constraint 53: $x_{3} + x_{4} + x_{9} + x_{12} + x_{24} + x_{29} \le 4$
+\item Constraint 54: $x_{13} + x_{15} + x_{20} + x_{23} + x_{24} + x_{29} + x_{34} \le 5$
+\item Constraint 55: $x_{4} + x_{5} + x_{9} + x_{12} + x_{13} + x_{23} + x_{30} \le 4$
+\item Constraint 56: $x_{4} + x_{6} + x_{11} + x_{40} \le 1$
+\item Constraint 57: $x_{7} + x_{8} + x_{15} + x_{17} + x_{18} + x_{23} + x_{31} + x_{33} \le 2$
+\item Constraint 58: $x_{2} + x_{17} + x_{24} + x_{32} + x_{37} \le 1$
+\item Constraint 59: $x_{4} + x_{9} + x_{26} + x_{28} + x_{38} \le 4$
+\item Constraint 60: $x_{5} + x_{22} + x_{24} + x_{26} + x_{32} + x_{33} \le 4$
+\item Constraint 61: $x_{7} + x_{8} + x_{16} + x_{20} + x_{27} + x_{35} + x_{38} \le 4$
+\item Constraint 62: $x_{8} + x_{15} + x_{24} + x_{35} + x_{38} + x_{39} \le 3$
+\item Constraint 63: $x_{2} + x_{13} + x_{24} + x_{30} + x_{37} \le 1$
+\item Constraint 64: $x_{6} + x_{12} + x_{15} + x_{17} + x_{23} \le 1$
+\item Constraint 65: $x_{2} + x_{4} + x_{10} + x_{19} + x_{24} + x_{31} + x_{40} \le 4$
+\item Constraint 66: $x_{3} + x_{4} + x_{6} + x_{10} + x_{27} + x_{32} + x_{37} + x_{40} \le 2$
+\item Constraint 67: $x_{2} + x_{3} + x_{6} + x_{10} + x_{19} + x_{34} + x_{39} + x_{40} \le 7$
+\item Constraint 68: $x_{7} + x_{8} + x_{16} + x_{19} + x_{20} + x_{33} + x_{38} + x_{39} \le 5$
+\item Constraint 69: $x_{2} + x_{4} + x_{5} + x_{14} + x_{18} + x_{21} + x_{25} \le 1$
+\item Constraint 70: $x_{3} + x_{8} + x_{10} + x_{26} + x_{39} + x_{40} \le 1$
+\item Constraint 71: $x_{11} + x_{22} + x_{28} + x_{29} + x_{34} + x_{36} \le 4$
+\item Constraint 72: $x_{2} + x_{12} + x_{18} + x_{28} \le 1$
+\item Constraint 73: $x_{9} + x_{12} + x_{14} + x_{15} + x_{36} \le 1$
+\item Constraint 74: $x_{4} + x_{6} + x_{13} + x_{19} + x_{20} + x_{21} + x_{27} + x_{40} \le 5$
+\item Constraint 75: $x_{13} + x_{30} + x_{34} + x_{35} + x_{39} \le 1$
+\item Constraint 76: $x_{1} + x_{4} + x_{5} + x_{6} + x_{9} + x_{10} + x_{16} + x_{39} \le 6$
+\item Constraint 77: $x_{13} + x_{23} + x_{27} + x_{28} + x_{33} + x_{34} + x_{36} + x_{38} \le 1$
+\item Constraint 78: $x_{10} + x_{13} + x_{18} + x_{23} + x_{25} + x_{31} + x_{37} \le 3$
+\item Constraint 79: $x_{9} + x_{20} + x_{25} + x_{27} + x_{29} + x_{39} \le 4$
+\item Constraint 80: $x_{2} + x_{6} + x_{10} + x_{12} + x_{17} + x_{24} \le 1$
+\end{itemize}
+\end{document}

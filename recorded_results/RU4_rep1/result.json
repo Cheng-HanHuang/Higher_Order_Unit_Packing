@@ -1,0 +1,2346 @@
+{
+  "instance_name": "random_unit_n80_m160_tight",
+  "n": 80,
+  "num_constraints": 160,
+  "gamma": 2.0954791867116196,
+  "max_w": 1.9954791867116195,
+  "eta0_tuned": 2.0,
+  "num_runs": 12,
+  "all_converged_to_stationary": true,
+  "all_binary": true,
+  "all_feasible": true,
+  "all_strict_local_min_certified": true,
+  "any_saddle_evidence": false,
+  "records": [
+    {
+      "run_id": 0,
+      "seed": 2006,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 11,
+      "runtime_sec": 0.1306629180908203,
+      "final_value": -75.67821744835359,
+      "pg_norm": 0.0,
+      "grad_norm": 29.259866595090276,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 1,
+      "seed": 2007,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 12,
+      "runtime_sec": 0.1410505771636963,
+      "final_value": -74.75244124386191,
+      "pg_norm": 0.0,
+      "grad_norm": 27.893539096175598,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 2,
+      "seed": 2008,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 10,
+      "runtime_sec": 0.12134170532226562,
+      "final_value": -76.10187045901154,
+      "pg_norm": 0.0,
+      "grad_norm": 24.48393394535297,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 3,
+      "seed": 2009,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 10,
+      "runtime_sec": 0.12170600891113281,
+      "final_value": -75.65588065084391,
+      "pg_norm": 0.0,
+      "grad_norm": 27.598244817790075,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 4,
+      "seed": 2010,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 13,
+      "runtime_sec": 0.15559697151184082,
+      "final_value": -74.48645894865265,
+      "pg_norm": 0.0,
+      "grad_norm": 20.714003359185472,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 5,
+      "seed": 2011,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 13,
+      "runtime_sec": 0.15594482421875,
+      "final_value": -73.43119813486258,
+      "pg_norm": 0.0,
+      "grad_norm": 20.851294646857852,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 6,
+      "seed": 2012,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 9,
+      "runtime_sec": 0.11169004440307617,
+      "final_value": -75.02847275970967,
+      "pg_norm": 0.0,
+      "grad_norm": 20.99481888501302,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 7,
+      "seed": 2013,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 11,
+      "runtime_sec": 0.13117480278015137,
+      "final_value": -75.25205098081761,
+      "pg_norm": 0.0,
+      "grad_norm": 30.33589932727018,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 8,
+      "seed": 2014,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 10,
+      "runtime_sec": 0.12175440788269043,
+      "final_value": -74.28011946847201,
+      "pg_norm": 0.0,
+      "grad_norm": 24.499104770609303,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 9,
+      "seed": 2015,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 11,
+      "runtime_sec": 0.13169455528259277,
+      "final_value": -75.1419971838396,
+      "pg_norm": 0.0,
+      "grad_norm": 25.332269038292157,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 10,
+      "seed": 2016,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 8,
+      "runtime_sec": 0.10212898254394531,
+      "final_value": -75.7618016882008,
+      "pg_norm": 0.0,
+      "grad_norm": 22.783549523111123,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    },
+    {
+      "run_id": 11,
+      "seed": 2017,
+      "eta0_tuned": 2.0,
+      "converged": true,
+      "stop_reason": "pg_tol",
+      "iterations": 13,
+      "runtime_sec": 0.15548968315124512,
+      "final_value": -74.24744114542807,
+      "pg_norm": 0.0,
+      "grad_norm": 21.70988843546689,
+      "binarity_error": 0.0,
+      "feasible": true,
+      "strict_local_min_certified": true,
+      "local_min_evidence": true,
+      "saddle_evidence": false,
+      "stationary_first_order": true,
+      "min_free_hessian_eig": null
+    }
+  ],
+  "metadata": {
+    "generator": "random_unit_packing",
+    "row_size_range": [
+      5,
+      10
+    ],
+    "capacity_mode": "tight"
+  },
+  "problem_instance": {
+    "name": "random_unit_n80_m160_tight",
+    "n": 80,
+    "weights": [
+      0.747049041111171,
+      0.8061245136383921,
+      0.7643970797367807,
+      1.9954791867116195,
+      0.5244224199164504,
+      1.7182448388217755,
+      0.8378944247250734,
+      1.6589211479450572,
+      1.1017484137594966,
+      1.6683891425699864,
+      1.3341480454722028,
+      1.4987091631334792,
+      1.451403312773472,
+      0.8405390112667523,
+      0.846412937934875,
+      1.25651692351094,
+      0.5879914966126897,
+      1.2891284981361344,
+      1.5734249071952855,
+      1.6710746597535535,
+      0.9721946175945583,
+      1.4066169144048293,
+      0.9597531315379426,
+      0.6141151219085974,
+      1.7600098588859057,
+      1.360877450790496,
+      0.788439981137051,
+      1.2219885192056708,
+      1.7582509475548254,
+      1.3797763684485616,
+      1.1243923582506772,
+      1.1332799838587544,
+      1.7742385177500257,
+      0.6696633664943055,
+      0.9494785482106216,
+      1.279117186250957,
+      1.4087833394628313,
+      0.9043922719448598,
+      0.8264619499584183,
+      0.7475305225332936,
+      0.9732486569863272,
+      1.2773577510226506,
+      0.6837413566930788,
+      0.9683659917339875,
+      0.5806065979097228,
+      0.9755942024559237,
+      1.0858707809439005,
+      1.2120737907495964,
+      1.7271839513314933,
+      0.7009030588938318,
+      0.6808622058414996,
+      1.7841638420688133,
+      0.9839862410697933,
+      1.6333847713810534,
+      1.3847180967140644,
+      1.1122798675173569,
+      1.3662291433696252,
+      0.5300959685120354,
+      0.7797040048165791,
+      1.2119167455451743,
+      1.076815995010583,
+      1.4688910320387483,
+      1.1486549876807008,
+      1.6407505511332665,
+      1.4245723169854005,
+      0.752412741735861,
+      1.4753772010494846,
+      1.6420507156333408,
+      0.9880699202707643,
+      0.5251832394557476,
+      1.5353510596400335,
+      1.5447106282599665,
+      1.7216592240098683,
+      1.8414792490287453,
+      1.1892044976880547,
+      0.6639536849381471,
+      0.9049240388240634,
+      1.663322529828755,
+      1.274921350894333,
+      1.6867278100007972
+    ],
+    "constraints": [
+      {
+        "indices": [
+          7,
+          24,
+          43,
+          48,
+          66
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          1,
+          5,
+          17,
+          31,
+          52,
+          59,
+          69,
+          73,
+          79
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          0,
+          22,
+          33,
+          50,
+          67,
+          71
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          14,
+          45,
+          52,
+          73,
+          75
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          0,
+          15,
+          26,
+          50,
+          63,
+          67,
+          77
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          2,
+          4,
+          6,
+          14,
+          20,
+          21,
+          31,
+          45,
+          63,
+          64
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          3,
+          18,
+          30,
+          45,
+          50,
+          56,
+          69
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          13,
+          18,
+          20,
+          35,
+          40,
+          58,
+          63
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          5,
+          7,
+          23,
+          35,
+          46,
+          74
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          0,
+          8,
+          17,
+          20,
+          30,
+          32,
+          47,
+          55,
+          67
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          1,
+          18,
+          35,
+          51,
+          53,
+          56,
+          59,
+          66
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          3,
+          8,
+          27,
+          60,
+          68,
+          77
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          12,
+          24,
+          32,
+          36,
+          39,
+          45,
+          64
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          11,
+          22,
+          47,
+          48,
+          49
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          0,
+          19,
+          24,
+          33,
+          39,
+          49,
+          58
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          7,
+          18,
+          43,
+          60,
+          69,
+          70
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          3,
+          9,
+          11,
+          50,
+          52,
+          70
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          5,
+          10,
+          18,
+          26,
+          31,
+          42,
+          58,
+          66,
+          73
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          1,
+          3,
+          4,
+          6,
+          30,
+          61
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          0,
+          10,
+          18,
+          23,
+          50,
+          58,
+          60,
+          65,
+          79
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          4,
+          15,
+          19,
+          26,
+          30,
+          53,
+          58,
+          63,
+          73
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          9,
+          12,
+          16,
+          39,
+          48,
+          67
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          3,
+          6,
+          24,
+          30,
+          33,
+          38,
+          46,
+          56,
+          59,
+          70
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          9,
+          18,
+          32,
+          43,
+          49,
+          77
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          4,
+          5,
+          31,
+          37,
+          41,
+          44,
+          47,
+          63,
+          78
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          3,
+          19,
+          20,
+          22,
+          72
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          0,
+          8,
+          27,
+          29,
+          50,
+          62,
+          76
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          4,
+          12,
+          19,
+          37,
+          42,
+          74
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          3,
+          12,
+          22,
+          27,
+          34,
+          55,
+          59,
+          61,
+          70
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          12,
+          25,
+          32,
+          37,
+          46,
+          47,
+          53
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          33,
+          49,
+          57,
+          64,
+          70,
+          71
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          14,
+          28,
+          37,
+          38,
+          39,
+          45,
+          46,
+          69
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          7,
+          22,
+          27,
+          57,
+          75,
+          78
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          22,
+          36,
+          47,
+          49,
+          50,
+          60,
+          70,
+          74
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          16,
+          20,
+          23,
+          26,
+          56,
+          59
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          8,
+          23,
+          27,
+          28,
+          36,
+          51,
+          79
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          2,
+          6,
+          10,
+          23,
+          26,
+          47,
+          48,
+          77
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          19,
+          22,
+          25,
+          45,
+          47,
+          63,
+          72
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          6,
+          11,
+          29,
+          40,
+          44,
+          67,
+          71,
+          74,
+          78
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          7,
+          10,
+          21,
+          34,
+          38,
+          44,
+          52,
+          54,
+          56,
+          69
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          4,
+          29,
+          30,
+          37,
+          59,
+          70,
+          75
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          7,
+          15,
+          16,
+          26,
+          33,
+          34,
+          40,
+          45,
+          55,
+          69
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          4,
+          13,
+          38,
+          40,
+          47,
+          60
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          8,
+          10,
+          11,
+          53,
+          54,
+          74
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          19,
+          24,
+          30,
+          47,
+          59,
+          62,
+          74,
+          75
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          9,
+          10,
+          17,
+          54,
+          68,
+          72,
+          73,
+          74
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          3,
+          4,
+          41,
+          55,
+          61,
+          72,
+          74
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          9,
+          10,
+          12,
+          26,
+          37,
+          39,
+          41,
+          50,
+          73,
+          78
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          6,
+          15,
+          20,
+          38,
+          50,
+          64,
+          70
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          23,
+          32,
+          33,
+          72,
+          73,
+          78
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          5,
+          30,
+          43,
+          46,
+          60,
+          70
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          11,
+          28,
+          31,
+          35,
+          36,
+          38,
+          50,
+          51,
+          74
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          1,
+          26,
+          37,
+          53,
+          67,
+          73
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          4,
+          25,
+          42,
+          52,
+          64
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          8,
+          11,
+          19,
+          29,
+          31,
+          53,
+          55,
+          63,
+          79
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          8,
+          13,
+          33,
+          38,
+          44,
+          55,
+          73
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          0,
+          3,
+          22,
+          25,
+          27,
+          50,
+          52,
+          57,
+          67
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          2,
+          13,
+          39,
+          44,
+          53,
+          61,
+          62
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          3,
+          37,
+          53,
+          72,
+          75
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          23,
+          52,
+          56,
+          59,
+          66,
+          67,
+          70
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          21,
+          30,
+          39,
+          49,
+          66
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          12,
+          16,
+          35,
+          36,
+          48,
+          49,
+          51,
+          67,
+          69
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          12,
+          24,
+          35,
+          36,
+          42,
+          55,
+          65,
+          69,
+          78
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          13,
+          26,
+          31,
+          38,
+          46,
+          60,
+          72,
+          76
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          9,
+          17,
+          27,
+          35,
+          46
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          12,
+          13,
+          21,
+          26,
+          49,
+          54,
+          55,
+          65,
+          70
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          1,
+          29,
+          34,
+          41,
+          44,
+          57,
+          59,
+          65,
+          68,
+          75
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          30,
+          33,
+          37,
+          40,
+          41
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          4,
+          21,
+          43,
+          58,
+          59,
+          65
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          0,
+          20,
+          43,
+          44,
+          52,
+          60,
+          64
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          2,
+          12,
+          30,
+          40,
+          42,
+          53,
+          60,
+          61,
+          63,
+          79
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          3,
+          6,
+          7,
+          9,
+          35,
+          38,
+          55,
+          66,
+          70,
+          75
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          11,
+          36,
+          54,
+          62,
+          66
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          14,
+          22,
+          29,
+          37,
+          53,
+          61,
+          64,
+          71,
+          73,
+          76
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          9,
+          23,
+          33,
+          34,
+          44,
+          51,
+          69,
+          76,
+          79
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          6,
+          17,
+          21,
+          22,
+          26,
+          34,
+          52,
+          59,
+          74,
+          75
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          7,
+          25,
+          29,
+          71,
+          73,
+          74
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          4,
+          12,
+          23,
+          30,
+          55,
+          64
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          3,
+          7,
+          22,
+          41,
+          63,
+          79
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          0,
+          8,
+          46,
+          55,
+          79
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          21,
+          35,
+          36,
+          45,
+          77
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          27,
+          34,
+          65,
+          69,
+          77
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          31,
+          37,
+          38,
+          40,
+          44,
+          49,
+          56,
+          63,
+          65
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          14,
+          21,
+          38,
+          42,
+          51,
+          54,
+          59,
+          67
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          10,
+          47,
+          52,
+          55,
+          79
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          39,
+          43,
+          46,
+          49,
+          55,
+          57,
+          61,
+          62
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          3,
+          7,
+          23,
+          31,
+          35,
+          43,
+          46,
+          64,
+          67
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          13,
+          30,
+          31,
+          50,
+          57,
+          58,
+          61,
+          68,
+          74,
+          75
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          15,
+          19,
+          22,
+          30,
+          49,
+          55,
+          59,
+          62,
+          75
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          11,
+          37,
+          54,
+          58,
+          68
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          3,
+          7,
+          8,
+          11,
+          17,
+          26,
+          35,
+          48,
+          56,
+          75
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          3,
+          9,
+          10,
+          19,
+          36,
+          37,
+          48,
+          55,
+          69
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          4,
+          8,
+          13,
+          23,
+          28,
+          53,
+          61,
+          63
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          5,
+          10,
+          13,
+          16,
+          19,
+          21,
+          39,
+          59,
+          67,
+          76
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          8,
+          12,
+          18,
+          25,
+          31,
+          46,
+          64,
+          69,
+          71,
+          74
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          6,
+          7,
+          15,
+          18,
+          39,
+          50,
+          51,
+          69,
+          72,
+          77
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          7,
+          34,
+          54,
+          58,
+          67
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          1,
+          5,
+          12,
+          13,
+          27,
+          34,
+          48,
+          51,
+          59,
+          65
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          18,
+          25,
+          30,
+          39,
+          44,
+          59,
+          70
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          20,
+          26,
+          31,
+          51,
+          59,
+          62,
+          63
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          0,
+          3,
+          17,
+          24,
+          41,
+          58,
+          65,
+          78,
+          79
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          0,
+          8,
+          15,
+          33,
+          36,
+          46,
+          54,
+          58,
+          69,
+          70
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          5,
+          16,
+          18,
+          19,
+          32,
+          63,
+          67,
+          78
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          3,
+          11,
+          49,
+          57,
+          58
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          12,
+          24,
+          26,
+          30,
+          47,
+          51,
+          62
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          0,
+          9,
+          17,
+          19,
+          30,
+          40,
+          68,
+          69,
+          74,
+          76
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          13,
+          32,
+          34,
+          59,
+          71
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          10,
+          12,
+          21,
+          46,
+          47,
+          59,
+          62,
+          67
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          1,
+          16,
+          22,
+          27,
+          41,
+          44,
+          46,
+          50,
+          51
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          15,
+          20,
+          23,
+          24,
+          54,
+          57,
+          60,
+          77
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          9,
+          15,
+          18,
+          21,
+          28,
+          45,
+          51,
+          72,
+          75
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          8,
+          23,
+          26,
+          36,
+          38,
+          63,
+          73,
+          75
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          8,
+          24,
+          39,
+          51,
+          75
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          16,
+          24,
+          34,
+          52,
+          53,
+          57,
+          64
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          8,
+          12,
+          18,
+          25,
+          31,
+          56,
+          62
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          11,
+          19,
+          30,
+          36,
+          47,
+          55,
+          60
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          10,
+          20,
+          30,
+          53,
+          62,
+          78
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          8,
+          14,
+          18,
+          19,
+          40,
+          51,
+          62,
+          63,
+          75,
+          79
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          12,
+          19,
+          25,
+          29,
+          50,
+          55,
+          56,
+          57,
+          67,
+          77
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          10,
+          20,
+          34,
+          50,
+          75
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          3,
+          7,
+          74,
+          75,
+          79
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          0,
+          14,
+          26,
+          28,
+          29,
+          37,
+          52,
+          61,
+          62
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          5,
+          16,
+          17,
+          36,
+          37,
+          38,
+          56
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          15,
+          27,
+          29,
+          33,
+          43,
+          46,
+          51,
+          53,
+          57,
+          63
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          8,
+          9,
+          21,
+          27,
+          28,
+          52,
+          56,
+          72,
+          74,
+          76
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          2,
+          4,
+          15,
+          21,
+          23,
+          26,
+          43,
+          58,
+          64,
+          72
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          3,
+          21,
+          26,
+          27,
+          36,
+          64,
+          65,
+          69,
+          71,
+          77
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          9,
+          13,
+          16,
+          17,
+          20,
+          29,
+          31,
+          54,
+          68
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          9,
+          35,
+          43,
+          46,
+          51,
+          64,
+          78
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          13,
+          25,
+          27,
+          36,
+          76
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          10,
+          16,
+          17,
+          19,
+          31,
+          67,
+          77,
+          79
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          2,
+          13,
+          35,
+          51,
+          55,
+          58,
+          59,
+          65,
+          66,
+          77
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          2,
+          4,
+          9,
+          19,
+          41,
+          45,
+          56,
+          64,
+          66
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          3,
+          4,
+          16,
+          33,
+          37,
+          38
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          4,
+          8,
+          9,
+          15,
+          19,
+          22,
+          23,
+          27,
+          39,
+          68
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          8,
+          10,
+          19,
+          23,
+          26,
+          67,
+          73
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          5,
+          13,
+          18,
+          51,
+          56,
+          66,
+          77
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          4,
+          8,
+          11,
+          15,
+          23,
+          45,
+          57,
+          67,
+          68,
+          78
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          13,
+          26,
+          37,
+          39,
+          46,
+          54,
+          64,
+          73,
+          77
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          7,
+          24,
+          33,
+          37,
+          40,
+          50,
+          78
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          3,
+          15,
+          20,
+          28,
+          36,
+          51,
+          57,
+          77
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          1,
+          2,
+          13,
+          32,
+          52
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          35,
+          55,
+          69,
+          74,
+          78
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          0,
+          8,
+          17,
+          26,
+          42,
+          47
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          23,
+          30,
+          34,
+          44,
+          51,
+          76
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          6,
+          10,
+          18,
+          39,
+          41,
+          60
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          1,
+          11,
+          37,
+          54,
+          58,
+          69
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          3,
+          26,
+          33,
+          54,
+          60,
+          73,
+          76
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          16,
+          26,
+          51,
+          59,
+          67
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          12,
+          23,
+          34,
+          36,
+          49,
+          67,
+          71
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          7,
+          8,
+          17,
+          28,
+          43,
+          58,
+          61,
+          66
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          7,
+          12,
+          14,
+          32,
+          58,
+          73
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          0,
+          14,
+          17,
+          20,
+          38,
+          39,
+          46,
+          55
+        ],
+        "capacity": 7
+      },
+      {
+        "indices": [
+          2,
+          10,
+          12,
+          26,
+          30,
+          33,
+          39,
+          42,
+          51,
+          70
+        ],
+        "capacity": 9
+      },
+      {
+        "indices": [
+          9,
+          24,
+          31,
+          54,
+          59,
+          70,
+          75
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          12,
+          36,
+          47,
+          61,
+          68,
+          79
+        ],
+        "capacity": 5
+      },
+      {
+        "indices": [
+          13,
+          24,
+          57,
+          74,
+          79
+        ],
+        "capacity": 4
+      },
+      {
+        "indices": [
+          5,
+          15,
+          44,
+          56,
+          58,
+          59,
+          73
+        ],
+        "capacity": 6
+      },
+      {
+        "indices": [
+          23,
+          24,
+          30,
+          34,
+          57,
+          58,
+          63,
+          64,
+          79
+        ],
+        "capacity": 8
+      },
+      {
+        "indices": [
+          5,
+          17,
+          20,
+          30,
+          33,
+          34,
+          56,
+          57,
+          64,
+          68
+        ],
+        "capacity": 9
+      }
+    ],
+    "metadata": {
+      "generator": "random_unit_packing",
+      "row_size_range": [
+        5,
+        10
+      ],
+      "capacity_mode": "tight"
+    }
+  }
+}
