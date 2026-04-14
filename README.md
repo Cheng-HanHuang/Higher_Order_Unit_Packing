@@ -225,18 +225,19 @@ python summarize_higher_order_pgd_results.py higher_order_pgd_sweep_results \
 
 ## `run_higher_order_pgd_stress_suite.py` (fixed hard suite)
 
-Defines a fixed list of stress specs (`build_specs`) and executes each with replicates.
+Defines stress specs (`build_specs`) and executes each with replicates.
 
 ### Problem families and IDs
 
-- `RU1`–`RU6`: progressively harder random-unit settings.
-- `KS1`–`KS6`: progressively harder k-set settings.
+- `--profile standard`: `RU1`–`RU6` and `KS1`–`KS6` (hard baseline suite).
+- `--profile extreme`: `RU7`–`RU10` and `KS7`–`KS10` (larger/harder stability suite).
 
 ### Key parameters
 
 CLI args include:
 - `--solver`
 - `--outdir`
+- `--profile {standard,extreme}`
 - `--runs`
 - `--tune-runs`
 - `--tol-pg`
